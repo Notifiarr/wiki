@@ -2,7 +2,7 @@
 title: Hotio
 description: 
 published: true
-date: 2021-05-22T20:46:30.679Z
+date: 2021-05-22T22:05:15.754Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T20:46:30.679Z
@@ -29,7 +29,7 @@ dateCreated: 2021-05-22T20:46:30.679Z
 ## Configuration
 ![open-configuration.png](/hotio/open-configuration.png)
 
-Click the **cog icon** to open the configuration options for Bazarr.
+Click the **cog icon** to open the configuration options for Hotio apps.
 
 ![configuration.png](/hotio/configuration.png)
 
