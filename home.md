@@ -2,7 +2,7 @@
 title: About
 description: 
 published: true
-date: 2021-05-22T00:58:38.406Z
+date: 2021-05-23T01:43:42.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T00:58:35.895Z
@@ -31,6 +31,7 @@ This was built about 2 years ago for me and used by only me locally until about 
 
 ### *arr Companions
 
+* Release parser
 * Bazarr
 * Unpackerr
 
@@ -48,7 +49,7 @@ This was built about 2 years ago for me and used by only me locally until about 
 
 ### Network
 
-* Monitor any TCP/HTTP app on your network
+* Monitor any app on your network via TCP/HTTP/Process
 * Snapshots
 
 ### Websites
@@ -58,8 +59,10 @@ This was built about 2 years ago for me and used by only me locally until about 
 
 ### Misc
 
+* Github
 * Reddit subreddit
 * Hotio: Pullio
+* TRaSH: Sync
 
 This may not always be a full list, but covers most things at the time of posting.
 
