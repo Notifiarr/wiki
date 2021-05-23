@@ -2,7 +2,7 @@
 title: Unpackerr
 description: 
 published: true
-date: 2021-05-23T02:26:42.821Z
+date: 2021-05-23T02:26:59.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T02:26:42.821Z
@@ -22,7 +22,7 @@ Reaction example:
 
 1. Triggers
     - `Processing` - Be notified when Unpackerr has started processing (Extracting, Extracted)
-    - `Imported` - Be notified when Unpackerr as marked it imported
+    - `Imported` - Be notified when Unpackerr has marked it imported
     - `Failed` - Be notified of when Unpackerr fails to unpack
     - `Update Available` - Not part of Unpackerr, this is a check Notifiarr does 
 1. Channel
