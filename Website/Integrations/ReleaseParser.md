@@ -2,7 +2,7 @@
 title: Release Parser
 description: 
 published: true
-date: 2021-05-23T01:58:50.395Z
+date: 2021-05-23T04:25:08.685Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T01:58:50.395Z
@@ -26,4 +26,4 @@ Click the **cog icon** to open the configuration options for the Release parser.
 
 ![configuration.png](/releaseparser/configuration.png)
 
-- Pick the keywords that the bot to watch for
+- Pick the keywords that the bot will watch for
