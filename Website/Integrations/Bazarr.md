@@ -2,7 +2,7 @@
 title: Bazarr
 description: 
 published: true
-date: 2021-05-22T20:21:14.371Z
+date: 2021-05-22T20:21:22.365Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:22:16.748Z
