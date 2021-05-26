@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-05-26T13:17:11.475Z
+date: 2021-05-26T16:18:23.613Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -38,4 +38,4 @@ You can run a curl command and make sure you get a 200 response returned.
 Expected result: HTTP/1.1 200 OK
 Incorrect result: HTTP/1.1 401 Unauthorized
 
-Adjust the token and url until it is 200. Once you have the proper information added, **restart Notifiarr** so it uses the new configuration.
+Adjust the token and url until it is 200. Once you have the proper information added, **restart Notifiarr** so it uses the new configuration. If you are not sure how to get the token, find your token: [Plex Forums](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
