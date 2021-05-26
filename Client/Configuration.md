@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2021-05-22T01:09:36.912Z
+date: 2021-05-26T02:56:58.328Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -118,7 +118,7 @@ notifiarr ALL=(root) NOPASSWD:/usr/sbin/MegaCli64 -LDInfo -Lall -aALL
   - **Linux**:    Debian/Ubuntu: `apt install smartmontools`, RedHat/CentOS: `yum install smartmontools`
   - **Synology**: `opkg install smartmontools`, but first get Entware:
     - Entware (synology):  https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS
-    - Entware Package List:  https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS
+    - Entware Package List: https://github.com/Entware/Entware-ng#readme
 
 ###### Snapshot Configuration
 
