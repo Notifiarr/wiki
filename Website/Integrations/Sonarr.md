@@ -2,15 +2,14 @@
 title: Sonarr
 description: 
 published: true
-date: 2021-05-22T02:24:45.129Z
+date: 2021-05-26T03:04:50.142Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
 ---
 
-> This integration allows for notifications from Sonarr using the connect for Webhooks
+> This integration allows for notifications from Sonarr using the connect for Webhooks. In Radarr click Settings → Connect → + → Webhook (The developer refuses to add Notifiarr native) and the instructions are below on what information to use.
 
----
 
 ## Trigger options
 
@@ -24,9 +23,8 @@ dateCreated: 2021-05-22T02:24:43.287Z
     - `Deleted` - Receive a notification when media is deleted
     - `Health` - Receive a notification when Sonarr reports an issue
 1. Channel
-    - Sonarr shares the *arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
+    - Sonarr shares the \*arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
 
----
 
 ## Configuration
 
