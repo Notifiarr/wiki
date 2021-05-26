@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2021-05-26T02:40:16.466Z
+date: 2021-05-26T02:40:28.371Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T02:40:16.466Z

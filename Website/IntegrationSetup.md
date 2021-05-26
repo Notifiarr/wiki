@@ -2,7 +2,7 @@
 title: Integration Setup
 description: 
 published: true
-date: 2021-05-25T01:04:42.478Z
+date: 2021-05-25T01:04:49.941Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T01:04:42.478Z
