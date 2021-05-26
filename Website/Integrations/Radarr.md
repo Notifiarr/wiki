@@ -2,13 +2,13 @@
 title: Radarr
 description: 
 published: true
-date: 2021-05-22T02:26:24.054Z
+date: 2021-05-26T03:02:09.059Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:20:20.205Z
 ---
 
-> This integration allows for notifications from Radarr using its built in Connection for **Notifiarr**
+> This integration allows for notifications from Radarr using its built in Connection for **Notifiarr**. In Radarr click Settings → Connect → + → Notifiarr
 
 ---
 
