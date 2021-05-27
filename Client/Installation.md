@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-05-22T01:08:59.293Z
+date: 2021-05-27T01:55:56.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -25,7 +25,7 @@ After install, edit the config and start the service:
 
 ```
 sudo nano /etc/notifiarr/notifiarr.conf
-sudo service systemctl restart notifiarr
+sudo service systemctl restart notifiarr -or- sudo service notifiarr restart
 ```
 
 ### FreeBSD
