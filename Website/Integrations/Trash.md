@@ -2,7 +2,7 @@
 title: TRaSH Sync
 description: 
 published: true
-date: 2021-05-23T03:24:52.699Z
+date: 2021-05-28T21:04:26.243Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T03:24:50.933Z
@@ -26,6 +26,13 @@ dateCreated: 2021-05-23T03:24:50.933Z
 
 Click the **cog icon** to open the configuration options for TRaSH.
 
+![configuration-2.png](/trash/configuration-2.png)
+
+1. Enable sync for individual custom formats
+1. Enable sync for scores based on your quality profiles
+
+### Custom Formats
+
 ![configuration.png](/trash/configuration.png)
 
 1. CF table, click on the CF and it will jump to it
@@ -34,3 +41,12 @@ Click the **cog icon** to open the configuration options for TRaSH.
 1. Toggle
 	- Each instance will have its own toggle
 	- Green means it matched an existing CF in your Radarr instance, you can mouseover and it will show you the name as it appears in Radarr. You can name the CF or the fields in each CF anything you want and it will stay in sync
+
+### Custom Format Scores
+
+![configuration.png-3](/trash/configuration-3.png)
+
+1. List of quality profiles from your Radarr instance
+1. List of custom formats you can sync the scores for per profile. It is done this way to allow you to have full control over each profile and custom format scores instead of forcing a score to apply to all profiles
+1. Sync/Unsync all custom formats for the quality profile
+- The custom format must be in sync in order to sync the score
