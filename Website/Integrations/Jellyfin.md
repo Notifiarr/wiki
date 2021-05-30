@@ -2,7 +2,7 @@
 title: Jellyfin
 description: 
 published: true
-date: 2021-05-22T22:04:45.547Z
+date: 2021-05-30T04:36:25.540Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T22:04:40.095Z
@@ -19,7 +19,7 @@ dateCreated: 2021-05-22T22:04:40.095Z
 1. Triggers
     - `Items` - Receive a notification when media is added
     - `Play` - Receive a notification when media has started playing
-    - `Stop` - Receive a notification when media **new** is successfully imported
+    - `Stop` - Receive a notification when media has stopped playing
     - `Plugin Install` - Receive a notification when a plugin has been installed
     - `Plugin Uninstall` - Receive a notification when a plugin has been removed
 1. More Triggers
