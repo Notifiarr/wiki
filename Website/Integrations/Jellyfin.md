@@ -2,7 +2,7 @@
 title: Jellyfin
 description: 
 published: true
-date: 2021-05-30T04:36:25.540Z
+date: 2021-05-30T04:36:38.135Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T22:04:40.095Z
@@ -10,7 +10,6 @@ dateCreated: 2021-05-22T22:04:40.095Z
 
 > This integration allows for notifications from the Jellyfin media app
 
----
 
 ## Trigger options
 
@@ -27,7 +26,6 @@ dateCreated: 2021-05-22T22:04:40.095Z
 1. Channel
     - Setup all the channels needed for each trigger
 
----
 
 ## Configuration
 
