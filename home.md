@@ -2,7 +2,7 @@
 title: About
 description: 
 published: true
-date: 2021-05-23T01:43:48.245Z
+date: 2021-05-31T05:11:07.645Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T00:58:35.895Z
@@ -13,7 +13,17 @@ dateCreated: 2021-05-22T00:58:35.895Z
 
 This is not something we are trying to get hundreds of thousands of users using, so you wont see it being announced or advertised. Use it if it is helpful, dont if it isn't! The info here is more of a quick high level overview, you can visit the site for full details or hop on Discord.
 
-[![Discord chat](https://img.shields.io/discord/764440599066574859?style=flat-square&color=4051B5&logo=discord)](https://discord.gg/AURf8Yz)
+Support
+[![Discord chat](https://img.shields.io/discord/764440599066574859?style=plastic&color=blue&logo=discord)](https://discord.gg/AURf8Yz)
+
+Website
+![GitHub issues](https://img.shields.io/github/issues/Notifiarr/website?color=blue&logo=github&style=plastic) ![GitHub issues](https://img.shields.io/github/issues-closed/Notifiarr/website?color=blue&logo=github&style=plastic) 
+
+Client
+![GitHub issues](https://img.shields.io/github/issues/Notifiarr/notifiarr?color=blue&logo=github&style=plastic) ![GitHub issues](https://img.shields.io/github/issues-closed/Notifiarr/notifiarr?color=blue&logo=github&style=plastic)  ![GitHub issues](https://img.shields.io/github/issues-pr/Notifiarr/notifiarr?color=blue&logo=github&style=plastic)  ![GitHub issues](https://img.shields.io/github/issues-pr-closed/Notifiarr/notifiarr?color=blue&logo=github&style=plastic) [![GitHub license](https://img.shields.io/github/license/Notifiarr/notifiarr?color=blue)](https://github.com/Notifiarr/notifiarr/blob/main/LICENSE)
+
+Wiki
+![GitHub issues](https://img.shields.io/github/issues/Notifiarr/wiki?color=blue&logo=github&style=plastic) ![GitHub issues](https://img.shields.io/github/issues-closed/Notifiarr/wiki?color=blue&logo=github&style=plastic)  ![GitHub issues](https://img.shields.io/github/issues-pr/Notifiarr/wiki?color=blue&logo=github&style=plastic)  ![GitHub issues](https://img.shields.io/github/issues-pr-closed/Notifiarr/wiki?color=blue&logo=github&style=plastic)
 
 ## Purpose
 
@@ -44,6 +54,7 @@ This was built about 2 years ago for me and used by only me locally until about 
 
 ### Media Management
 
+* Emby
 * Jellyfin
 * Plex
 
