@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-05-26T16:18:23.613Z
+date: 2021-06-28T16:13:38.287Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -24,7 +24,25 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
   ### Features
     1. Radarr Collections
-    
+
+## Q. How do I monitor the queue for stuck items?
+
+- Make sure you are using at least v0.1.9 of the Notifiarr client
+- Modify the client conf file and add `stuck_items = true` to each \*arr section you want to track
+
+Example:
+```
+[[radarr]]
+  name     = "App: Radarr"
+  url      = "http://localhost:7878"
+  api_key  = ""
+  interval = "5m0s" # service check duration (if name is not empty)
+  timeout  = "1m0s"
+  stuck_items = true
+```
+
+It will notify once when it thinks it is stuck and then update the existing message every 5 minutes until it is imported so you can see the amount of time it is stuck and why. Messages go to the shared `Errors` channel.
+
 ## Q. How do I test the Plex connection?
 
 You can run a curl command and make sure you get a 200 response returned. 
