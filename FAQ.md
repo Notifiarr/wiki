@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-06-28T16:13:38.287Z
+date: 2021-06-28T16:16:43.277Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -24,6 +24,8 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
   ### Features
     1. Radarr Collections
+    1. Automatic ununmonitoring of movies/epsiodes after finish
+    1. Stuck queue item notifications
 
 ## Q. How do I monitor the queue for stuck items?
 
