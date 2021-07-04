@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-07-04T15:28:48.095Z
+date: 2021-07-04T15:29:52.915Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -29,7 +29,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 ## Q. How do I monitor the queue for stuck items?
 
-- Make sure you are using at least v0.1.9 of the Notifiarr client
+- Make sure you are using at least v0.1.11 of the Notifiarr client
 - Modify the client conf file and add `stuck_items = true` to each \*arr section you want to track
 
 Example:
