@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-06-28T16:16:43.277Z
+date: 2021-07-04T15:28:48.095Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -40,10 +40,17 @@ Example:
   api_key  = ""
   interval = "5m0s" # service check duration (if name is not empty)
   timeout  = "1m0s"
-  stuck_items = true
+  check_q  = 1
 ```
 
 It will notify once when it thinks it is stuck and then update the existing message every 5 minutes until it is imported so you can see the amount of time it is stuck and why. Messages go to the shared `Errors` channel.
+
+You can set the `check_q` to any number 0 or greater to enable it. The number represents when to repeat the notification (how many hour(s)) instead of updating the existing one (this will trigger a new notification to be made and delete the previous one).
+
+- 0: Monitor for stuck items, only update the existing message
+- 1: Monitor for stuck items, delete the message after 1 hour and send a new one to be re-notified
+
+If you want the notifications to stop coming for a specific item, click the `Acknowledge` link in the notification. This is useful if something has a low amount of peers for example so it could take some time to complete it.
 
 ## Q. How do I test the Plex connection?
 
