@@ -2,7 +2,7 @@
 title: DiscordPermissions
 description: 
 published: true
-date: 2021-05-22T01:40:28.075Z
+date: 2021-08-10T03:59:24.037Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:28:13.929Z
@@ -34,6 +34,10 @@ I will work on the assumption you have created a role called **Bots** already wi
     - This is used for the Media Request integration so the bot can remove all the back and forth posts when adding new things to leave a clean channel history
 1. `Read Message History`
     - This is used for the Media Request integration so the bot can get the user interactions and is also used to place reactions on existing messages
+1. `Manage Channels`
+    - Only required with the Channel stats integration
+1. `Connect`
+    - Only required with the Channel stats integration
 
 ---
 
