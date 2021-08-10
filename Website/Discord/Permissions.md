@@ -2,7 +2,7 @@
 title: DiscordPermissions
 description: 
 published: true
-date: 2021-08-10T04:02:49.377Z
+date: 2021-08-10T04:02:51.128Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:28:13.929Z

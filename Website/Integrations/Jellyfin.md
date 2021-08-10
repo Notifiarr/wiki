@@ -2,7 +2,7 @@
 title: Jellyfin
 description: 
 published: true
-date: 2021-05-30T04:36:38.135Z
+date: 2021-05-30T04:36:39.917Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T22:04:40.095Z

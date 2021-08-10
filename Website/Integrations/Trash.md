@@ -2,7 +2,7 @@
 title: TRaSH Sync
 description: 
 published: true
-date: 2021-05-28T21:04:26.243Z
+date: 2021-05-28T21:04:32.091Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T03:24:50.933Z
