@@ -2,7 +2,7 @@
 title: DiscordPermissions
 description: 
 published: true
-date: 2021-08-10T03:59:24.037Z
+date: 2021-08-10T04:01:43.748Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:28:13.929Z
@@ -12,9 +12,7 @@ This can be a struggle depending on how you have your server setup. If you want 
 
 ---
 
-I will work on the assumption you have created a role called **Bots** already with this and assigned the Notifiarr bot to it. With that said, right click on your server name at the top and pick `Server Settings > Roles`. Click on the Bots role so the permissions list loads.
-
-> Yes I am aware that adding the bot automatically creates a **Notifiarr** role but most will rather leave that one hidden and use an existing role. If you want to use that one, make sure all the same permissions are applied to it.
+Right click on your server name at the top and pick `Server Settings > Roles`. Click on the Notifiarr role and then pick Permissions.
 
 ## **Required permissions**
 
