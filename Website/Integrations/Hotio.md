@@ -2,7 +2,7 @@
 title: Hotio
 description: 
 published: true
-date: 2021-05-22T22:05:17.463Z
+date: 2021-08-10T22:33:45.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T20:46:30.679Z
@@ -40,3 +40,4 @@ Click the **cog icon** to open the configuration options for Hotio apps.
 ![instructions.png](/hotio/instructions.png)
 
 The compose entry to enable Notifiarr with Pullio
+- Sidenote for images: If you do not specify an avatar image in the app compose one will be used from the site so you do not have to worry about image hosting sites.
