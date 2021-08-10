@@ -2,13 +2,13 @@
 title: DiscordPermissions
 description: 
 published: true
-date: 2021-08-10T04:01:43.748Z
+date: 2021-08-10T04:02:49.377Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:28:13.929Z
 ---
 
-This can be a struggle depending on how you have your server setup. If you want to do a simple test and see if you have permission issues, set the role your bot is included in to have admin permission and test. If everything works, this means you simply need to adjust permissions for the role so you do not need to make it an admin role if you dont want to.
+This can be a struggle depending on how you have your server setup. If you want to do a simple test and see if you have permission issues, set the Notifiarr role to have admin permission and test. If everything works, this means you simply need to adjust permissions for the role so you do not need to make it an admin role if you dont want to.
 
 ---
 
