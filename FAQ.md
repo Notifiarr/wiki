@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-07-14T21:42:54.282Z
+date: 2021-08-15T03:49:37.805Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -16,10 +16,11 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - The client is only required for certain integrations/features.
 
 	### Integrations
+    1. Dashboard
     1. Media Request
     1. Network 
     1. Plex 
-    1. Snapshot 
+    1. Snapshot
     1. TRaSH 
 
   ### Features
