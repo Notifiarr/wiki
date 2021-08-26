@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-08-15T03:49:37.805Z
+date: 2021-08-26T12:32:59.958Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -13,9 +13,10 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 ## Q. Is the Notifiarr client required?
 
-- The client is only required for certain integrations/features.
+- The client is only required for certain integrations/features. This means the Media Request integration needs enabled and the connect added. You dont have to use requests but that is where the client connection is saved.
 
 	### Integrations
+    1. Channel Stats
     1. Dashboard
     1. Media Request
     1. Network 
