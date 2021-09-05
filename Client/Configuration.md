@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2021-05-26T02:57:00.350Z
+date: 2021-09-05T04:00:08.353Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -38,7 +38,7 @@ timeout|`DN_TIMEOUT`|`60s` / Global API Timeouts (all apps default)|
 
 |Config Name|Variable Name|Note|
 |---|---|---|
-sonarr.name|`DN_SONARR_0_NAME`|No Default. Setting a name enabled service checks.|
+sonarr<nolink/>.name|`DN_SONARR_0_NAME`|No Default. Setting a name enabled service checks.|
 sonarr.url|`DN_SONARR_0_URL`|No Default. Something like: `http://localhost:8989`|
 sonarr.api_key|`DN_SONARR_0_API_KEY`|No Default. Provide URL and API key if you use Sonarr|
 
@@ -46,7 +46,7 @@ sonarr.api_key|`DN_SONARR_0_API_KEY`|No Default. Provide URL and API key if you 
 
 |Config Name|Variable Name|Note|
 |---|---|---|
-radarr.name|`DN_RADARR_0_NAME`|No Default. Setting a name enabled service checks.|
+radarr<nolink/>.name|`DN_RADARR_0_NAME`|No Default. Setting a name enabled service checks.|
 radarr.url|`DN_RADARR_0_URL`|No Default. Something like: `http://localhost:7878`|
 radarr.api_key|`DN_RADARR_0_API_KEY`|No Default. Provide URL and API key if you use Radarr|
 
@@ -54,7 +54,7 @@ radarr.api_key|`DN_RADARR_0_API_KEY`|No Default. Provide URL and API key if you 
 
 |Config Name|Variable Name|Note|
 |---|---|---|
-readarr.name|`DN_READARR_0_NAME`|No Default. Setting a name enabled service checks.|
+readarr<nolink/>.name|`DN_READARR_0_NAME`|No Default. Setting a name enabled service checks.|
 readarr.url|`DN_READARR_0_URL`|No Default. Something like: `http://localhost:8787`|
 readarr.api_key|`DN_READARR_0_API_KEY`|No Default. Provide URL and API key if you use Readarr|
 
@@ -62,7 +62,7 @@ readarr.api_key|`DN_READARR_0_API_KEY`|No Default. Provide URL and API key if yo
 
 |Config Name|Variable Name|Note|
 |---|---|---|
-lidarr.name|`DN_LIDARR_0_NAME`|No Default. Setting a name enabled service checks.|
+lidarr<nolink/>.name|`DN_LIDARR_0_NAME`|No Default. Setting a name enabled service checks.|
 lidarr.url|`DN_LIDARR_0_URL`|No Default. Something like: `http://lidarr:8686`|
 lidarr.api_key|`DN_LIDARR_0_API_KEY`|No Default. Provide URL and API key if you use Readarr|
 
@@ -151,7 +151,7 @@ You can also create ad-hoc service checks for things like Bazarr.
 
 |Config Name|Variable Name|Note|
 |---|---|---|
-service.name|`DN_SERVICE_0_NAME`|Services must have a unique name|
+service<nolink/>.name|`DN_SERVICE_0_NAME`|Services must have a unique name|
 service.type|`DN_SERVICE_0_TYPE`|Type must be one of `http`, `tcp`|
 service.check|`DN_SERVICE_0_CHECK`|The `URL`, or `host/ip:port` to check|
 service.expect|`DN_SERVICE_0_EXPECT`|`200`, For HTTP, the return code to expect|
