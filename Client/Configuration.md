@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2021-09-05T04:00:08.353Z
+date: 2021-09-05T16:40:16.890Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -184,3 +184,67 @@ Here are two more example Nginx configs:
 
 - [TRaSH-'s Swag](https://gist.github.com/TRaSH-/037235b0440b38c8964a2cbb64179cf3) - A drop-in for Swag users.
 - [Captain's Custom](https://github.com/Go-Lift-TV/organizr-nginx/blob/master/golift/notifiarr.conf) - Fits into Captain's Go Lift setup. Not for everyone.
+
+## Docker Compose
+
+These are just some examples from users, they may need modified to run on your system and are intended to be informational. You should decide if you are going to use ENV variables or the conf file for the settings (conf file recommended). This first example has ENV and a defined conf which means the conf settings are not used for the ENV defined ones (creates confusion which is why i added it to see and avoid doing)
+
+- The image is the only one available. LSIO & Hotio do not provide builds.
+
+### Example 1
+
+```
+notifiarr:
+    container_name: notifiarr
+    image: golift/notifiarr:latest
+    restart: unless-stopped
+    privileged: true
+    environment:
+      - TZ=${TZ}
+      - DN_SNAPSHOT_TIMEOUT=10s
+      - DN_SNAPSHOT_INTERVAL=30m
+      - DN_SNAPSHOT_MONITOR_DRIVES=true
+      - DN_SNAPSHOT_USE_SUDO=true
+      - DN_SNAPSHOT_MONITOR_CPUTEMP=true
+      - DN_SNAPSHOT_MONITOR_CPUMEMORY=true
+      - DN_SNAPSHOT_MONITOR_SPACE=true
+      - DN_SNAPSHOT_MONITOR_RAID=true
+    volumes:
+      - ${BASE_DOCKER_DATA_PATH}/notifiarr/config/notifiarr.conf:/config/notifiarr.conf
+      - /var/run/utmp:/var/run/utmp
+    ports:
+      - 5454:5454
+```
+
+### Example 2
+
+```
+ notifiarr:
+    container_name: notifiarr
+    image: golift/notifiarr:latest
+    restart: unless-stopped
+    ports:
+      - 5454:5454
+    environment:
+      - TZ=${TZ}
+    volumes:
+      - ${DOCKERCONFDIR}/notifiarr:/config
+      - /var/run/utmp:/var/run/utmp  # optional, only needed if you want to count users
+    privileged: true    # Optional, only needed for Snapshots
+```
+
+### Example 3
+
+```
+notifiarr:
+    image: golift/notifiarr:latest
+    container_name: notifiarr
+    privileged: true
+    volumes:
+      - ${CONFDIR}/notifiarr:/config
+      - ${LOGDIR}/notifiarr:/logs
+      - /var/run/utmp:/var/run/utmp
+    ports:
+      - 5454:5454
+    restart: unless-stopped
+```
