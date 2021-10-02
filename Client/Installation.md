@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-05-27T01:56:02.233Z
+date: 2021-10-02T12:29:06.130Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -99,6 +99,11 @@ docker run -d \
 golift/notifiarr
 docker logs <container id from docker run>
 ```
+
+> If you're behind a reverse proxy and facing connection issues (for example after a certificate renewal), the upstreams setting in the config file might need to be changed to 
+`upstreams = [ "notifiarr/32", "::1/128" ]`
+{.is-info}
+
 
 #### Docker Environment Variables
 
