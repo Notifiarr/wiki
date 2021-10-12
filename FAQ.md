@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-08-26T12:32:59.958Z
+date: 2021-10-12T18:13:48.238Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -69,3 +69,23 @@ Expected result: HTTP/1.1 200 OK
 Incorrect result: HTTP/1.1 401 Unauthorized
 
 Adjust the token and url until it is 200. Once you have the proper information added, **restart Notifiarr** so it uses the new configuration. If you are not sure how to get the token, find your token: [Plex Forums](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
+
+## Q. What are the user level differences
+- `User` Free for all
+	- Access to all integrations and notifications (Except TRaSH sync) 
+  - Limited to 12k notifications per day
+
+- `Patron` One time support contribution
+	- User access
+  - Patron channel access on discord
+  - Access to TRaSH CF/RP sync and extra CFs not on the guide
+  - Custom plex session management for managing users/devices and killing sessions
+  - Limited to 24k notifications per day
+
+- `Subscriber` Monthly/Yearly support contribution
+	- Patron access
+  - Subscriber channel access on discord
+  - Radarr gaps (automated collection monitoring)
+  - Custom integration icons
+  - Unlimited notifications per day
+  - **Note** If you cancel the subscription, you'll be shifted into `Patron`
