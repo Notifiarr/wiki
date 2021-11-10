@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-10-02T12:29:06.130Z
+date: 2021-11-10T15:25:04.209Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -82,6 +82,22 @@ This project builds automatically in [Docker Cloud](https://hub.docker.com/r/gol
 and creates [ready-to-use multi-architecture images](https://hub.docker.com/r/golift/notifiarr/tags).
 The `latest` tag is always a tagged release in GitHub. The `main` tag corresponds
 to the `main` branch in GitHub and may be broken.
+
+#### Hostname
+
+It is important that a static hostname is set so the site can keep track of multiple clients for the settings. Some examples of how to do that:
+- `-h notifiarr` to your docker run command
+- compose users add `hostname: notifiarr` to your yaml
+- unraid users add `-h notifiarr` to Extra Parameters 
+- truenas/kube users will be automatically pulled based on the pod name since they dont offer static hostnames
+
+
+#### WSL2 users
+
+Add a volume to your Notifiarr container (This is used for a unique uuid for each client instance)
+```
+/etc/machine-id:/etc/machine-id
+```
 
 #### Docker Config File
 
