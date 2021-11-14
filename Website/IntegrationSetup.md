@@ -2,7 +2,7 @@
 title: Integration Setup
 description: 
 published: true
-date: 2021-05-25T01:04:49.941Z
+date: 2021-11-14T04:04:17.949Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T01:04:42.478Z
@@ -20,5 +20,6 @@ dateCreated: 2021-05-25T01:04:42.478Z
 
 1. How to invite the bot to your channel and how to setup the permissions for it (Click the WIKI link)
 1. Your discord server id
-1. Shared channels that are used by more than one integration
+1. Verify bot permissions
+1. Shared error channel
 1. Reaction setup (optional)
