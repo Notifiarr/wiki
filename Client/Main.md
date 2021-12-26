@@ -2,7 +2,7 @@
 title: Client
 description: 
 published: true
-date: 2021-08-16T01:01:18.484Z
+date: 2021-12-26T17:55:37.189Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:20.353Z
@@ -29,6 +29,11 @@ You can set a log file in the config. You should do that. Otherwise, find your l
 -   macOS: `~/.notifiarr/notifiarr.log`
 -   Windows: `<home folder>/.notifiarr/notifiarr.log`
 
+### Clearing Logs
+
+To `clear` logs to make troubleshooting easier - simply rename the log file or delete it then restart the client.
+
+If you have not previously enabled debug logs you do not need to clear anything.
 
 ### Detailed Debugging
 
