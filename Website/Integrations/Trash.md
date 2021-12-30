@@ -2,7 +2,7 @@
 title: TRaSH Sync
 description: 
 published: true
-date: 2021-05-28T21:04:32.091Z
+date: 2021-12-30T01:56:30.330Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T03:24:50.933Z
@@ -39,7 +39,7 @@ Click the **cog icon** to open the configuration options for TRaSH.
 1. CF name, is per TRaSH guides
 1. JSON accordion, click to view the raw JSON for the CF
 1. Toggle
-	- Each instance will have its own toggle
+	- Each instance will have its own toggle <sup>1</sup>
 	- Green means it matched an existing CF in your Radarr instance, you can mouseover and it will show you the name as it appears in Radarr. You can name the CF or the fields in each CF anything you want and it will stay in sync
 
 ### Custom Format Scores
@@ -50,3 +50,7 @@ Click the **cog icon** to open the configuration options for TRaSH.
 1. List of custom formats you can sync the scores for per profile. It is done this way to allow you to have full control over each profile and custom format scores instead of forcing a score to apply to all profiles
 1. Sync/Unsync all custom formats for the quality profile
 - The custom format must be in sync in order to sync the score
+
+### Notes
+
+1. Currently you need to enable Media Requests integration if you are using multiple instances. Once you enable it you will see a drop down to pick the client, pick the one that has the arr apps configured if you use more than one. Save that and re-open the integration (yes i know this is annoying and it is on the list to fix on [Github](https://github.com/Notifiarr/website/issues/79)) so the 4 buttons on the right show **Online** under whichever you have configured. Click the **+** to the right of the buttons to add another instance. Each instance should already be configured in the client conf file locally. Before you bitch at me, yes i know this is not necessary. This is old code that has not been updated yet and is already on the list on [Github](https://github.com/Notifiarr/website/issues/72)
