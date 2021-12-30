@@ -2,7 +2,7 @@
 title: TRaSH Sync
 description: 
 published: true
-date: 2021-12-30T01:58:37.682Z
+date: 2021-12-30T02:07:32.618Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T03:24:50.933Z
@@ -53,4 +53,4 @@ Click the **cog icon** to open the configuration options for TRaSH.
 
 ### Notes
 
-1. Currently you need to enable Media Requests integration if you are using multiple instances. Once you enable it you will see a drop down to pick the client, pick the one that has the arr apps configured if you use more than one. Save that and re-open the integration (yes i know this is annoying and it is on the list to fix on [Github](https://github.com/Notifiarr/website/issues/79)) so the 4 buttons on the right show **Online** under whichever you have configured. Click the **+** to the right of the buttons to add another instance. Each instance should already be configured in the client conf file locally. Before you bitch at me, yes i know this is not necessary. This is old code that has not been updated yet and is already on the list on [Github](https://github.com/Notifiarr/website/issues/72). Once you hade the extra instances added, reload the site and you will see them in the TRaSH integration.
+1. Currently you need to enable Media Requests integration if you are using multiple instances. Once you enable it you will see a drop down to pick the client, pick the one that has the arr apps configured if you use more than one. Save that and re-open the integration (yes i know this is annoying and it is on the list to fix on [Github](https://github.com/Notifiarr/website/issues/79)) so the 4 buttons on the right show **Online** under whichever you have configured. Click the **+** to the right of the buttons to add another instance. Each instance should already be configured in the client conf file locally. Before you bitch at me, yes i know this is not necessary. This is old code that has not been updated yet and is already on the list on [Github](https://github.com/Notifiarr/website/issues/72). Once you have the extra instances added, reload the site and you will see them in the TRaSH integration.
