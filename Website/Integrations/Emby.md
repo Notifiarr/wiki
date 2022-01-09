@@ -10,7 +10,6 @@ dateCreated: 2021-05-30T04:35:56.167Z
 
 > This integration allows for notifications from the Emby media app
 
-
 ## Trigger options
 
 ![trigger-channels.png](/emby/trigger-channels.png)

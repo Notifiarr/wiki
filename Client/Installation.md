@@ -17,6 +17,7 @@ Linux repository hosting provided by
 
 This works on any system with apt or yum. If your system does not use APT or YUM, then download a package from the [Releases](https://github.com/Notifiarr/notifiarr/releases) page.
 Install the Go Lift package repo and Notifiarr with this command:
+
 ```
 curl -s https://golift.io/repo.sh | sudo bash -s - notifiarr
 ```
@@ -30,8 +31,8 @@ sudo service systemctl restart notifiarr -or- sudo service notifiarr restart
 
 ### FreeBSD
 
--   Download a package from the [Releases](https://github.com/Notifiarr/notifiarr/releases) page.
--   Install it, edit config, start it.
+- Download a package from the [Releases](https://github.com/Notifiarr/notifiarr/releases) page.
+- Install it, edit config, start it.
 
 Example of the above in shell form:
 
@@ -48,9 +49,9 @@ On Linux and FreeBSD, Notifiarr runs as `user:group` `notifiarr:notifiarr`.
 
 #### Homebrew
 
--   Edit config file at `/usr/local/etc/notifiarr/notifiarr.conf`
--   Start it.
--   Like this:
+- Edit config file at `/usr/local/etc/notifiarr/notifiarr.conf`
+- Start it.
+- Like this:
 
 ```shell
 brew install golift/mugs/notifiarr
@@ -60,21 +61,21 @@ brew services start notifiarr
 
 #### macOS App
 
--   You can use the unsigned app on the Releases page.
--   You must right click the app and select `Open` so macOS allows it.
--   When you open it for the first time it will create a config file and log file:
-    -   `~/.notifiarr/notifiarr.conf`
-    -   `~/.notifiarr/notifiarr.log`
--   Edit the config file and reload or restart the app.
+- You can use the unsigned app on the Releases page.
+- You must right click the app and select `Open` so macOS allows it.
+- When you open it for the first time it will create a config file and log file:
+  - `~/.notifiarr/notifiarr.conf`
+  - `~/.notifiarr/notifiarr.log`
+- Edit the config file and reload or restart the app.
 
 ### Windows
 
--   Extract a `.exe.zip` file from [the Releases page](https://github.com/Notifiarr/notifiarr/releases).
--   Run the `notifiarr.amd64.exe` binary. This starts the app in the system tray.
--   When you open it for the first time it will create a config file and log file:
-    -   `C:\ProgramData\notifiarr\notifiarr.conf`
-    -   `<your home folder>\.notifiarr\notifiarr.log`
--   Edit the new config file suit your environment then reload or restart the app.
+- Extract a `.exe.zip` file from [the Releases page](https://github.com/Notifiarr/notifiarr/releases).
+- Run the `notifiarr.amd64.exe` binary. This starts the app in the system tray.
+- When you open it for the first time it will create a config file and log file:
+  - `C:\ProgramData\notifiarr\notifiarr.conf`
+  - `<your home folder>\.notifiarr\notifiarr.log`
+- Edit the new config file suit your environment then reload or restart the app.
 
 ### Docker
 
@@ -86,26 +87,27 @@ to the `main` branch in GitHub and may be broken.
 #### Hostname
 
 It is important that a static hostname is set so the site can keep track of multiple clients for the settings. Some examples of how to do that:
+
 - `-h notifiarr` to your docker run command
 - compose users add `hostname: notifiarr` to your yaml
-- unraid users add `-h notifiarr` to Extra Parameters 
+- unraid users add `-h notifiarr` to Extra Parameters
 - truenas/kube users will be automatically pulled based on the pod name since they dont offer static hostnames
-
 
 #### WSL2 users
 
 Add a volume to your Notifiarr container (This is used for a unique uuid for each client instance)
+
 ```
 /etc/machine-id:/etc/machine-id
 ```
 
 #### Docker Config File
 
--   Copy the [example config file](https://github.com/Notifiarr/notifiarr/blob/main/examples/notifiarr.conf.example) from this repo.
--   Then grab the image from docker hub and run it using an overlay for the config file.
--   You must set `privileged` to use `smartctl` (`monitor_drives`) and/or `MegaCli` (`monitor_raid`).
--   Map the `/var/run/utmp` volume if you want to count users.
--   Mount any volumes you want to report storage space for. Where does not matter, "where" is the "name".
+- Copy the [example config file](https://github.com/Notifiarr/notifiarr/blob/main/examples/notifiarr.conf.example) from this repo.
+- Then grab the image from docker hub and run it using an overlay for the config file.
+- You must set `privileged` to use `smartctl` (`monitor_drives`) and/or `MegaCli` (`monitor_raid`).
+- Map the `/var/run/utmp` volume if you want to count users.
+- Mount any volumes you want to report storage space for. Where does not matter, "where" is the "name".
 
 ```shell
 docker pull golift/notifiarr
@@ -116,10 +118,9 @@ golift/notifiarr
 docker logs <container id from docker run>
 ```
 
-> If you're behind a reverse proxy and facing connection issues (for example after a certificate renewal), the upstreams setting in the config file might need to be changed to 
+> If you're behind a reverse proxy and facing connection issues (for example after a certificate renewal), the upstreams setting in the config file might need to be changed to
 `upstreams = [ "notifiarr/32", "::1/128" ]`
 {.is-info}
-
 
 #### Docker Environment Variables
 

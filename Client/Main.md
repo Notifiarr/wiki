@@ -23,11 +23,11 @@ Log files:
 
 You can set a log file in the config. You should do that. Otherwise, find your logs here:
 
--   Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
--   FreeBSD: `/var/log/syslog` (w/ default syslog)
--   Homebrew: `/usr/local/var/log/notifiarr.log`
--   macOS: `~/.notifiarr/notifiarr.log`
--   Windows: `<home folder>/.notifiarr/notifiarr.log`
+- Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
+- FreeBSD: `/var/log/syslog` (w/ default syslog)
+- Homebrew: `/usr/local/var/log/notifiarr.log`
+- macOS: `~/.notifiarr/notifiarr.log`
+- Windows: `<home folder>/.notifiarr/notifiarr.log`
 
 ### Clearing Logs
 
@@ -39,17 +39,21 @@ You can set a log file in the config. You should do that. Otherwise, find your l
 
 > Ensure that the path you set for the log files is somewhere both you and the client has access to. {.is-info}
 
-1. Locate and Open the Notifiarr Client config file. 
+1. Locate and Open the Notifiarr Client config file.
 1. `Disable` Quiet (i.e. `quiet = false`)
 1. `Enable` Debug (i.e. `debug = true`)
 1. Configure a Debug Log File path
-  - Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
-  - Linux: `debug_log = '/etc/notifiarr/debug.log'`
+
+- Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
+- Linux: `debug_log = '/etc/notifiarr/debug.log'`
+
 1. Configure a Log Path for the Log File and HTTP Log File
-  - Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
-  - Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
-  - Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
-  - Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+
+- Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
+- Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
+- Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
+- Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+
 1. Important: Make sure none of these lines start with a `#` and restart the client for the changes to take effect
 
 #### Example Config File Snippet

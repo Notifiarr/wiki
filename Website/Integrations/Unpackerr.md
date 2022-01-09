@@ -24,7 +24,7 @@ Reaction example:
     - `Processing` - Be notified when Unpackerr has started processing (Extracting, Extracted)
     - `Imported` - Be notified when Unpackerr has marked it imported
     - `Failed` - Be notified of when Unpackerr fails to unpack
-    - `Update Available` - Not part of Unpackerr, this is a check Notifiarr does 
+    - `Update Available` - Not part of Unpackerr, this is a check Notifiarr does
 1. Channel
     - Which channel to send Unpackerr notifications to
 
@@ -39,7 +39,7 @@ Click the **cog icon** to open the configuration options for Unpackerr.
 ![configuration.png](/unpackerr/configuration.png)
 
 1. Pick the colors for notification triggers
-1. Add a reaction to the grab/download from \*arr 
+1. Add a reaction to the grab/download from \*arr
 
 ### Instructions
 

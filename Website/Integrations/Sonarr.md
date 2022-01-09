@@ -10,7 +10,6 @@ dateCreated: 2021-05-22T02:24:43.287Z
 
 > This integration allows for notifications from Sonarr using the connect for Webhooks. In Radarr click Settings → Connect → + → Webhook (The developer refuses to add Notifiarr native) and the instructions are below on what information to use.
 
-
 ## Trigger options
 
 ![triggers-channels.png](/sonarr/triggers-channels.png)
@@ -24,7 +23,6 @@ dateCreated: 2021-05-22T02:24:43.287Z
     - `Health` - Receive a notification when Sonarr reports an issue
 1. Channel
     - Sonarr shares the \*arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
-
 
 ## Configuration
 

@@ -10,11 +10,11 @@ dateCreated: 2021-05-22T01:09:34.150Z
 
 ## Configuration Information
 
--   You can use env variables but the conf is suggested
--   Must provide an API key from notifiarr.com.
-    -   **The Notifiarr application uses the API key for bi-directional authorization.**
--   Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
--   You may provide multiple instances using more `[[radarr]]` entries (as an example)
+- You can use env variables but the conf is suggested
+- Must provide an API key from notifiarr.com.
+  - **The Notifiarr application uses the API key for bi-directional authorization.**
+- Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
+- You may provide multiple instances using more `[[radarr]]` entries (as an example)
 
 #### Plex
 
@@ -52,11 +52,11 @@ notifiarr ALL=(root) NOPASSWD:/usr/sbin/MegaCli64 -LDInfo -Lall -aALL
 
 ###### Snapshot Packages
 
-  - **Windows**:  `smartmontools` - get it here https://sourceforge.net/projects/smartmontools/
-  - **Linux**:    Debian/Ubuntu: `apt install smartmontools`, RedHat/CentOS: `yum install smartmontools`
-  - **Synology**: `opkg install smartmontools`, but first get Entware:
-    - Entware (synology):  https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS
-    - Entware Package List: https://github.com/Entware/Entware-ng#readme
+- **Windows**:  `smartmontools` - get it here <https://sourceforge.net/projects/smartmontools/>
+- **Linux**:    Debian/Ubuntu: `apt install smartmontools`, RedHat/CentOS: `yum install smartmontools`
+- **Synology**: `opkg install smartmontools`, but first get Entware:
+  - Entware (synology):  <https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS>
+  - Entware Package List: <https://github.com/Entware/Entware-ng#readme>
 
 - _Notes: Not all systems can report CPU temperatures._
 
@@ -71,6 +71,7 @@ Starr apps they will be automatically checked and reports sent to Notifiarr. Fin
 ```
 
 Monitor an app:
+
 ```
 [[service]]
   name     = "App: Bazarr"
@@ -82,6 +83,7 @@ Monitor an app:
 ```
 
 Monitor another machine:
+
 ```
 [[service]]
   name     = "Server: webserver"
@@ -93,6 +95,7 @@ Monitor another machine:
 ```
 
 Monitor a running process:
+
 ```
 [[service]]
   name     = "App: Unpackerr"

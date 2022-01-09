@@ -10,7 +10,6 @@ dateCreated: 2021-05-23T00:33:58.147Z
 
 > This integration allows for requesting media via Discord.
 
-
 ## Currently supported
 
 - Lidarr

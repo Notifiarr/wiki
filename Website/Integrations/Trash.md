@@ -19,7 +19,6 @@ dateCreated: 2021-05-23T03:24:50.933Z
 1. Channel
     - Which channel to send TRaSH update notifications to (when TRaSH updates them, removes them, when you sync them or unsync them)
 
-
 ## Configuration
 
 ![open-configuration.png](/trash/open-configuration.png)
@@ -39,8 +38,8 @@ Click the **cog icon** to open the configuration options for TRaSH.
 1. CF name, is per TRaSH guides
 1. JSON accordion, click to view the raw JSON for the CF
 1. Toggle
-	- Each instance will have its own toggle <sup>1</sup>
-	- Green means it matched an existing CF in your Radarr instance, you can mouseover and it will show you the name as it appears in Radarr. You can name the CF or the fields in each CF anything you want and it will stay in sync
+ - Each instance will have its own toggle <sup>1</sup>
+ - Green means it matched an existing CF in your Radarr instance, you can mouseover and it will show you the name as it appears in Radarr. You can name the CF or the fields in each CF anything you want and it will stay in sync
 
 ### Custom Format Scores
 
@@ -49,6 +48,7 @@ Click the **cog icon** to open the configuration options for TRaSH.
 1. List of quality profiles from your Radarr instance
 1. List of custom formats you can sync the scores for per profile. It is done this way to allow you to have full control over each profile and custom format scores instead of forcing a score to apply to all profiles
 1. Sync/Unsync all custom formats for the quality profile
+
 - The custom format must be in sync in order to sync the score
 
 ### Notes

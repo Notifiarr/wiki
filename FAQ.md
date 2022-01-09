@@ -19,10 +19,10 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Channel Stats
 - Dashboard
 - Media Request
-- Network 
-- Plex 
+- Network
+- Plex
 - Snapshot
-- TRaSH 
+- TRaSH
 
 ### Features
 
@@ -49,7 +49,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 ### Connection
 
-- You can run a curl command and make sure you get an `200 OK` response returned. 
+- You can run a curl command and make sure you get an `200 OK` response returned.
 
 ```bash
 curl -I -H "X-Plex-Token: <token>" <url>/status/sessions
@@ -60,12 +60,13 @@ curl -I -H "X-Plex-Token: <token>" <url>/status/sessions
 
   - Expected result: HTTP/1.1 200 OK
   - Incorrect result: HTTP/1.1 401 Unauthorized
- 
+
 - Adjust the token and url until it is 200.
 - Update the Notifiarr Client's configuration with the correct url and token
 - Restart the Notifiarr Client
 
-### Notifications & Sessions:
+### Notifications & Sessions
+
 If session info is missing from notifications or the sessions notification is not working:
 
 - Make sure you dont have duplicated clients in the [Client Settings](https://notifiarr.wiki/en/Website/ClientConfiguration)
@@ -78,11 +79,13 @@ If session info is missing from notifications or the sessions notification is no
 ## Q. What are the user level differences
 
 ### User
+
 - Cost: Free
-- Access to all integrations and notifications (Except TRaSH sync) 
+- Access to all integrations and notifications (Except TRaSH sync)
 - Limited to 12,000 notifications per day
 
 ### Patron
+
 - Cost: One time support contribution
 - Patron channel access on discord
 - Access to TRaSH Custom Format and Release Profile Sync and extra Custom Formats not on the public guide
@@ -90,8 +93,9 @@ If session info is missing from notifications or the sessions notification is no
 - Limited to 24,000 notifications per day
 
 ### Subscriber
+
 - Cost: Monthly or Yearly support contribution
-    - **Note** If you cancel your subscription, you'll be shifted into `Patron`
+  - **Note** If you cancel your subscription, you'll be shifted into `Patron`
 - Patron Access
 - Subscriber channel access on discord
 - Radarr Gaps (automated collection monitoring)

@@ -10,7 +10,6 @@ dateCreated: 2021-05-25T21:53:40.686Z
 
 # History
 
-
 ![media-requests-1.png](/media-requests-1.png)
 
 1. History tab will show you all your request history from the bot
