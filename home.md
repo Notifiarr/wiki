@@ -2,7 +2,7 @@
 title: About
 description: 
 published: true
-date: 2022-01-09T20:37:39.565Z
+date: 2022-01-09T20:43:28.471Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T00:58:35.895Z
@@ -63,6 +63,7 @@ This was built about 2 years ago for [me](https://github.com/austinwbest) and us
 * [Emby](/Website/Integrations/Emby.md)
 * [Jellyfin](/Website/Integrations/Jellyfin.md)
 * [Plex](/Website/Integrations/Plex.md)
+* [Plex Meta Manager](Website/Integrations/PMM.md)
 {.links-list}
 
 ### Network
