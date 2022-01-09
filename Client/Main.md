@@ -2,7 +2,7 @@
 title: Client
 description: 
 published: true
-date: 2021-12-26T17:55:37.189Z
+date: 2022-01-09T21:12:32.768Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:20.353Z
@@ -31,37 +31,47 @@ You can set a log file in the config. You should do that. Otherwise, find your l
 
 ### Clearing Logs
 
-To `clear` logs to make troubleshooting easier - simply rename the log file or delete it then restart the client.
+- To `clear` logs to make troubleshooting easier - simply rename the log file or delete it then restart the client.
 
-If you have not previously enabled debug logs you do not need to clear anything.
+- If you have not previously enabled debug logs you do not need to clear anything.
 
 ### Detailed Debugging
 
-In the conf file, find `quiet = true` or it may be false, change it to
-```
+> Ensure that the path you set for the log files is somewhere both you and the client has access to. {.is-info}
+
+1. Locate and Open the Notifiarr Client config file. 
+1. `Disable` Quiet (i.e. `quiet = false`)
+1. `Enable` Debug (i.e. `debug = true`)
+1. Configure a Debug Log File path
+  - Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
+  - Linux: `debug_log = '/etc/notifiarr/debug.log'`
+1. Configure a Log Path for the Log File and HTTP Log File
+  - Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
+  - Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
+  - Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
+  - Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+1. Important: Make sure none of these lines start with a `#` and restart the client for the changes to take effect
+
+#### Example Config File Snippet
+
+```none
 quiet = false
 debug = true
 debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'
-```
-
-Change this path to somewhere the client has access to.
-
-Next find the `log_file =` line and change it to
-```
+[...truncated...]
 log_file = 'C:\ProgramData\notifiarr\logs\log.log'
 http_log = 'C:\ProgramData\notifiarr\logs\http.log'
 ```
 
-Again change the path to somewhere the client has access to.
+> Ensure that the path you use is somewhere the client has access to. {.is-warning}
 
-- Important: Make sure none of these lines start with a `#` and restart the client after these changes
+Again change the path to somewhere the client has access to.
 
 ----------
 
 If transfers are in a Warning or Error state they will not be extracted.
 
-Still having problems?
-[Let us know!](https://github.com/Notifiarr/notifiarr/issues/new)
+Still having problems?[Let us know!](https://github.com/Notifiarr/notifiarr/issues/new) or [Come by Discord](https://discord.gg/AURf8Yz)
 
 ## Integrations
 
