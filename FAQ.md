@@ -2,57 +2,68 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-01-09T20:50:45.788Z
+date: 2022-01-09T21:05:38.409Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
 ---
 
 # Configuration
-<br>
 
 ## Q. Is the Notifiarr client required?
 
 - The client is only required for certain integrations/features. This means the Media Request integration needs enabled and the connect added. You dont have to use requests but that is where the client connection is saved.
 
-	### Integrations
-    1. Channel Stats
-    1. Dashboard
-    1. Media Request
-    1. Network 
-    1. Plex 
-    1. Snapshot
-    1. TRaSH 
+### Integrations
 
-  ### Features
-    1. Radarr Collections
-    1. Automatic ununmonitoring of movies/epsiodes after finish
-    1. Automatic plex session killing per user/device based on rules
-    1. Stuck queue item notifications
+- Channel Stats
+- Dashboard
+- Media Request
+- Network 
+- Plex 
+- Snapshot
+- TRaSH 
+
+### Features
+
+- Radarr Collections
+- Automatic ununmonitoring of movies/epsiodes after finish
+- Automatic plex session killing per user/device based on rules
+- Stuck queue item notifications
 
 ## Q. How do I monitor the queue for stuck items?
 
-Open the [Client Settings](https://notifiarr.wiki/en/Website/ClientConfiguration) on the site and expand the **Starr** section to set the notify times.
+- Open the [Client Settings](https://notifiarr.wiki/en/Website/ClientConfiguration) on the site and expand the **Starr** section to set the notify times.
 
-It will notify once when it thinks it is stuck and then update the existing message every 5 minutes until it is imported so you can see the amount of time it is stuck and why. Messages go to the shared `Errors` channel.
+- It will notify once when it thinks it is stuck and then update the existing message every 5 minutes until it is imported so you can see the amount of time it is stuck and why. Messages go to the shared `Errors` channel.
 
-If you want the notifications to stop coming for a specific item, click the `Acknowledge` link in the notification. This is useful if something has a low amount of peers for example so it could take some time to complete it.
+- If you want the notifications to stop coming for a specific item, click the `Acknowledge` link in the notification. This is useful if something has a low amount of peers for example so it could take some time to complete it.
 
 ## Q. How do I test/troubleshoot Plex?
 
-### Connection:
-You can run a curl command and make sure you get a 200 response returned. 
+### Locating the Plex Token
 
-```curl -I -H "X-Plex-Token: <token>" <url>/status/sessions```
+- [See this post in the Plex Forums](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
+
+> The Plex Token is required for the Notifiarr Client to send commands to Plex {.is-info}
+
+### Connection
+
+- You can run a curl command and make sure you get an `200 OK` response returned. 
+
+```bash
+curl -I -H "X-Plex-Token: <token>" <url>/status/sessions
+```
 
 - `<token>` The plex token from your config (ENV or conf file) Ex: `ZQonMnitLFbFsuaLXT9Yj`
 - `<url>` The plex URL from your config (ENV or conf file). Ex: `http://localhost:32400`
 
-
-Expected result: HTTP/1.1 200 OK
-Incorrect result: HTTP/1.1 401 Unauthorized
-
-Adjust the token and url until it is 200. Once you have the proper information added, **restart Notifiarr** so it uses the new configuration. If you are not sure how to get the token, find your token: [Plex Forums](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
+  - Expected result: HTTP/1.1 200 OK
+  - Incorrect result: HTTP/1.1 401 Unauthorized
+ 
+- Adjust the token and url until it is 200.
+- Update the Notifiarr Client's configuration with the correct url and token
+- Restart the Notifiarr Client
 
 ### Notifications & Sessions:
 If session info is missing from notifications or the sessions notification is not working:
