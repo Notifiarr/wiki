@@ -2,7 +2,7 @@
 title: Lidarr
 description: 
 published: true
-date: 2021-05-26T03:02:40.266Z
+date: 2022-01-09T20:21:24.771Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:00:42.791Z
@@ -58,3 +58,13 @@ Click the **cog icon** to open the configuration options for Lidarr.
 1. How to enable notifications from within Lidarr
 1. Test the notification from Notifiarr to Discord
     - This will ensure your server, channel and permissions are set properly in Discord.
+
+### Errors
+
+#### 400 Bad Request
+
+Check and ensure you have a Grab or Download channel configured for Lidarr
+
+#### 401 Unauthorized
+
+Your APIKey is incorrect
