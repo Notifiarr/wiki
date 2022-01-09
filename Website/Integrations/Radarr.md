@@ -2,7 +2,7 @@
 title: Radarr
 description: 
 published: true
-date: 2021-05-26T03:02:10.807Z
+date: 2022-01-09T20:20:42.635Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:20:20.205Z
@@ -60,3 +60,13 @@ Click the **cog icon** to open the configuration options for Radarr.
 1. Setting up multiple instance option
 1. Test the notification from Notifiarr to Discord
     - This will ensure your server, channel and permissions are set properly in Discord.
+
+### Errors
+
+#### 400 Bad Request
+
+Check and ensure you have a Grab or Download channel configured for Radarr
+
+#### 401 Unauthorized
+
+Your APIKey is incorrect
