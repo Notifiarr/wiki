@@ -2,7 +2,7 @@
 title: About
 description: 
 published: true
-date: 2022-01-09T20:43:28.471Z
+date: 2022-01-09T20:47:21.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T00:58:35.895Z
@@ -83,7 +83,7 @@ This was built about 2 years ago for [me](https://github.com/austinwbest) and us
 * [Github](/Website/Integrations/Github.md)
 * [Reddit Subreddit](/Website/Integrations/Reddit.md)
 * [Hotio: Pullio](/Website/Integrations/Hotio.md)
-* [TRaSH: Sync](/Website/Integrations/Trash.md)
+* [TRaSH: Sync *Patron*](/Website/Integrations/Trash.md)
 {.links-list}
 
 This may not always be a full list, but covers most things at the time of posting.
@@ -93,7 +93,8 @@ This may not always be a full list, but covers most things at the time of postin
 * Fully configurable on what triggers to get notifications for. Each integration and many triggers in them can go to their own channels.
 * Layout configuration for some notifications
 * Content configuration for most notifications (color, content, etc)
-* Media Requests Bot - Discord bot for all 4 \*arr apps with:
+* Media Requests Bot - Discord Bot for all 4 \*Arr apps with:
+  * Media Requests
   * User Permissions
   * Approvals
   * Sonarr Profiles
@@ -102,5 +103,5 @@ This may not always be a full list, but covers most things at the time of postin
   * Discover features
   * Multi-Instance Support
 * Minimal Access - Only port open that is needed is for the client to communicate with the site. No \*Arr apikeys or anything of the sort is used or saved on the site. All requests to the client are verified with your Notifiarr apikey and thrown out if they don't match up
-* TRaSH Custom Format Sync - Automated continuous add/sync for the custom formats TRaSH has made to use with Radarr
+* TRaSH Custom Format Sync [*\*Patron Feature\**](/FAQ#q-what-are-the-user-level-differences) - Automated continuous add/sync for the custom formats TRaSH has made to use with Radarr
 * Radarr Collections - A fully automated way to monitor all your Radarr collections with auto add new items to your library as they are put into the collection on TMDb for any monitored collections, etc.
