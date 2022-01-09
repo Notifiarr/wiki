@@ -2,7 +2,7 @@
 title: Sonarr
 description: 
 published: true
-date: 2021-05-26T03:04:51.880Z
+date: 2022-01-09T20:20:19.431Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
@@ -34,8 +34,11 @@ Click the **cog icon** to open the configuration options for Sonarr.
 
 ![configuration.png](/sonarr/configuration.png)
 
+1. Generate an APIKey for Sonarr on your Profile
+1. Navigate to Integrations
+1. Open the Sonarr Integration
 1. Open integration specific instructions
-1. Notification colors for each trigger type
+1. Configure Notification colors for each trigger type
 1. Unique notifications: Generate a new notification each time (By default notifications edit the previous one so there is a Grab and then the Download ot Upgrade will edit the Grab notification to alleviate the notification spam)
 1. Option to remove the grab once a successful import is done, only works with granular channels since messages in the same channel update
 
@@ -59,3 +62,13 @@ Click the **cog icon** to open the configuration options for Sonarr.
 1. Setting up multiple instance option
 1. Test the notification from Notifiarr to Discord
     - This will ensure your server, channel and permissions are set properly in Discord.
+
+### Errors
+
+#### 400 Bad Request
+
+Check and ensure you have a Grab or Download channel configured for Sonarr
+
+#### 401 Unauthorized
+
+Your APIKey is incorrect
