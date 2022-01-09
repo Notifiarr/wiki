@@ -2,7 +2,7 @@
 title: Notifiarr Integrations
 description: 
 published: true
-date: 2022-01-09T20:38:47.551Z
+date: 2022-01-09T20:43:52.816Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-09T20:38:47.551Z
@@ -39,6 +39,7 @@ dateCreated: 2022-01-09T20:38:47.551Z
 * [Emby](/Website/Integrations/Emby.md)
 * [Jellyfin](/Website/Integrations/Jellyfin.md)
 * [Plex](/Website/Integrations/Plex.md)
+* [Plex Meta Manager](Website/Integrations/PMM.md)
 {.links-list}
 
 ## Network
