@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-01-09T21:05:38.409Z
+date: 2022-01-16T01:41:58.940Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -30,6 +30,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Automatic ununmonitoring of movies/epsiodes after finish
 - Automatic plex session killing per user/device based on rules
 - Stuck queue item notifications
+- Starr backup/corruption check notifications
 
 ## Q. How do I monitor the queue for stuck items?
 
