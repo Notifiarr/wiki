@@ -2,7 +2,7 @@
 title: MediaRequests
 description: 
 published: true
-date: 2021-05-23T00:34:04.564Z
+date: 2022-02-01T14:52:50.071Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T00:33:58.147Z
@@ -48,6 +48,7 @@ Click the **cog icon** to open the configuration options for *arr apps.
 1. \+ button adds another instance of an \*arr app. This also needs configured in the Notifiarr client conf (or ENV if you use that) Details below
 1. Cleanup will remove all the ping/pong messages when adding things, leaving only the final message.
 1. Default keywords that control the bot, change them however you want.
+1. (Not Pictured) Request Filled changes the message to the user when a request is filled and downloaded by \*Arr. The default is "Good news!`
 
 ### Multiple instances
 
