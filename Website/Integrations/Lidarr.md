@@ -2,7 +2,7 @@
 title: Lidarr
 description: 
 published: true
-date: 2022-01-09T20:21:24.771Z
+date: 2022-03-05T02:25:48.510Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:00:42.791Z
@@ -14,13 +14,17 @@ dateCreated: 2021-05-22T02:00:42.791Z
 
 ## Trigger options
 
-![triggers-channels.png](/lidarr/triggers-channels.png)
+![triggers-channels.png](/lidarr/chrome_sysywsuxtt.png)
 
 1. Triggers
     - `Grab` - Receive a notification when media is initially grabbed (RSS or manual)
     - `Download` - Receive a notification when media **new** is successfully imported
+    - `Update` - Receive a notification when the application updates
     - `Upgrade` - Receive a notification when **upgraded** media is successfully imported
-    - `Health` - Receive a notification when Lidarr reports an issue
+    - `Health` - Receive a notification when the applicarion reports an issue
+    - `Backup` - Receive a notification when a backup occurs [(Notifiarr Client Required)](/Client/Main)
+    - `Corrupt` - Monitor backups for corruption and size loss [(Notifiarr Client Required)](/Client/Main)
+    - `Update` - Receive a notification when the application updates
 1. Channel
     - Lidarr shares the *arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
 
