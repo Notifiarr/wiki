@@ -2,13 +2,14 @@
 title: Release Parser
 description: 
 published: true
-date: 2021-05-23T04:25:10.376Z
+date: 2022-03-05T02:30:20.845Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T01:58:50.395Z
 ---
 
 > This integration allows for users to parse a release name in the same method Radarr and Sonarr do to see how the name will be treated.
+{.is-info}
 
 ## Trigger options
 
