@@ -2,13 +2,14 @@
 title: Unpackerr
 description: 
 published: true
-date: 2021-05-23T02:27:01.529Z
+date: 2022-03-05T02:34:06.535Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T02:26:42.821Z
 ---
 
 > This integration allows for notifications from Unpackerr.
+{.is-info}
 
 Reaction example:
 
@@ -20,13 +21,16 @@ Reaction example:
 
 ![trigger-channels.png](/unpackerr/trigger-channels.png)
 
-1. Triggers
-    - `Processing` - Be notified when Unpackerr has started processing (Extracting, Extracted)
-    - `Imported` - Be notified when Unpackerr has marked it imported
-    - `Failed` - Be notified of when Unpackerr fails to unpack
-    - `Update Available` - Not part of Unpackerr, this is a check Notifiarr does 
-1. Channel
-    - Which channel to send Unpackerr notifications to
+### Triggers
+
+- `Processing` - Be notified when Unpackerr has started processing (Extracting, Extracted)
+- `Imported` - Be notified when Unpackerr has marked it imported
+- `Failed` - Be notified of when Unpackerr fails to unpack
+- `Update Available` - Not part of Unpackerr, this is a check Notifiarr does 
+
+### Channel
+
+- Which channel to send Unpackerr notifications to
 
 ---
 
