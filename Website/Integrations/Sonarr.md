@@ -2,13 +2,14 @@
 title: Sonarr
 description: 
 published: true
-date: 2022-03-05T02:29:23.448Z
+date: 2022-03-05T02:32:18.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
 ---
 
-> This integration allows for notifications from Sonarr using the connect for Webhooks. In Radarr click Settings → Connect → + → Webhook (The developer refuses to add Notifiarr native) and the instructions are below on what information to use.
+> This integration allows for notifications from Sonarr using the connect for Webhooks. In Sonarr click Settings → Connect → <kb>+</kb> → Webhook (Note that: the Sonarr Developers refuse to add Notifiarr as a native connection) and the instructions are below on what information to use.
+{.is-info}
 
 
 ## Trigger options
