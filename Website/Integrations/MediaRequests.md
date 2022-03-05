@@ -1,34 +1,38 @@
 ---
-title: MediaRequests
+title: Media Requests
 description: 
 published: true
-date: 2022-02-01T14:52:50.071Z
+date: 2022-03-05T02:36:58.304Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T00:33:58.147Z
 ---
 
 > This integration allows for requesting media via Discord.
+{.is-info}
 
-
-## Currently supported
+## Currently Supported Applications
 
 - Lidarr
-- Radarr (>= v3)
+- Radarr (v3+)
 - Readarr
-- Sonarr (>= v3)
+- Sonarr (v3+)
+  - Note that for most uses involving the Notifiarr Client require Sonarr v3.0.6.1355 or newer
 
 ## Trigger options
 
 ![trigger-channels.png](/mediarequests/trigger-channels.png)
 
-1. Triggers
-    - `Lidarr`<sup>1</sup> - Enable Lidarr requests for an instance
-    - `Radarr`<sup>1</sup> - Enable Radarr requests for an instance
-    - `Readarr`<sup>1</sup> - Enable Readarr requests for an instance
-    - `Sonarr`<sup>1</sup> - Enable Sonarr requests for an instance
-1. Channel
-    - Pick the channel on your server to monitor for requests and send optional approval messages.
+### Triggers
+
+- `Lidarr`<sup>1</sup> - Enable Lidarr requests for an instance
+- `Radarr`<sup>1</sup> - Enable Radarr requests for an instance
+- `Readarr`<sup>1</sup> - Enable Readarr requests for an instance
+- `Sonarr`<sup>1</sup> - Enable Sonarr requests for an instance
+
+### Channel
+
+- Pick the channel on your server to monitor for requests and send optional approval messages.
 
 ---
 
