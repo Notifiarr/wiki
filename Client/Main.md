@@ -2,7 +2,7 @@
 title: Client
 description: 
 published: true
-date: 2022-01-09T21:12:32.768Z
+date: 2022-03-05T02:33:37.185Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:20.353Z
@@ -13,6 +13,10 @@ dateCreated: 2021-05-22T01:08:20.353Z
 This is the unified client for [Notifiarr.com](https://notifiarr.com).
 The client enables content requests from Media Bot in your Discord Server.
 It also provides reports for Plex usage and system health.
+
+## Client
+
+[Refer to the Notifiarr Client GitHub for details](https://github.com/Notifiarr/notifiarr)
 
 ## Troubleshooting
 
