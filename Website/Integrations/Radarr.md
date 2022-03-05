@@ -2,7 +2,7 @@
 title: Radarr
 description: 
 published: true
-date: 2022-03-05T02:27:22.333Z
+date: 2022-03-05T02:27:31.047Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:20:20.205Z
@@ -17,6 +17,7 @@ dateCreated: 2021-05-22T02:20:20.205Z
 ![triggers-channels.png](/radarr/triggers-channels.png)
 
 ### Triggers
+
     - `Grab` - Receive a notification when media is initially grabbed (RSS or manual)
     - `Download` - Receive a notification when media **new** is successfully imported
     - `Update` - Receive a notification when the application updates
@@ -28,6 +29,7 @@ dateCreated: 2021-05-22T02:20:20.205Z
     - `Deleted` - Be notified when media is deleted
 
 ### Channel
+
     - Radarr shares the *arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
 
 ---
