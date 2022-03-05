@@ -2,13 +2,14 @@
 title: Readarr
 description: 
 published: true
-date: 2022-03-05T02:29:26.357Z
+date: 2022-03-05T02:31:01.310Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-23T03:12:13.099Z
 ---
 
-> This integration allows for notifications from Readarr using its built in Connection for **Notifiarr**. In Readarr click Settings → Connect → + → Notifiarr
+> This integration allows for notifications from Readarr using its built in Connection for **Notifiarr**. In Readarr click Settings → Connect → <kb>+</kb> → Notifiarr
+{.is-info}
 
 ---
 
