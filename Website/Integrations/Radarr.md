@@ -2,7 +2,7 @@
 title: Radarr
 description: 
 published: true
-date: 2022-01-09T20:20:42.635Z
+date: 2022-03-05T02:26:38.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:20:20.205Z
@@ -18,10 +18,14 @@ dateCreated: 2021-05-22T02:20:20.205Z
 
 1. Triggers
     - `Grab` - Receive a notification when media is initially grabbed (RSS or manual)
-    - `Failed` - Custom notification type based on previous grabs. If the system detects a grab for the same media with the same quality or better before the previous one was imported then it will set the previous one as failed
     - `Download` - Receive a notification when media **new** is successfully imported
+    - `Update` - Receive a notification when the application updates
     - `Upgrade` - Receive a notification when **upgraded** media is successfully imported
-    - `Health` - Receive a notification when Radarr reports an issue
+    - `Failed` - Custom notification type based on previous grabs. If the system detects a grab for the same media with the same quality or better before the previous one was imported then it will set the previous one as failed
+    - `Health` - Receive a notification when the applicarion reports an issue
+    - `Backup` - Receive a notification when a backup occurs [(Notifiarr Client Required)](/Client/Main)
+    - `Corrupt` - Monitor backups for corruption and size loss [(Notifiarr Client Required)](/Client/Main)
+
 1. Channel
     - Radarr shares the *arr channel unless Granular Setup is used, clicking the link on the site will move to the channel setup location.
 
