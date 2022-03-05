@@ -2,13 +2,14 @@
 title: Lidarr
 description: 
 published: true
-date: 2022-03-05T02:30:02.844Z
+date: 2022-03-05T02:31:05.188Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:00:42.791Z
 ---
 
-> This integration allows for notifications from Lidarr using its built in Connection for **Notifiarr**. In Lidarr click Settings → Connect → + → Notifiarr
+> This integration allows for notifications from Lidarr using its built in Connection for **Notifiarr**. In Lidarr click Settings → Connect → <kb>+</kb> → Notifiarr
+{.is-info}
 
 ---
 
