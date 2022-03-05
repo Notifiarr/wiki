@@ -2,7 +2,7 @@
 title: Lidarr
 description: 
 published: true
-date: 2022-03-05T02:31:05.188Z
+date: 2022-03-05T02:48:29.767Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:00:42.791Z
@@ -15,7 +15,7 @@ dateCreated: 2021-05-22T02:00:42.791Z
 
 ## Trigger options
 
-![triggers-channels.png](/lidarr/chrome_sysywsuxtt.png)
+![triggers-channels.png](/lidarr/triggers-channels-new.png)
 
 ### Triggers
 
