@@ -2,7 +2,7 @@
 title: Bazarr
 description: 
 published: true
-date: 2022-03-05T02:32:53.600Z
+date: 2022-03-11T14:17:00.304Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:22:16.748Z
@@ -51,6 +51,6 @@ Click the **cog icon** to open the configuration options for Bazarr.
 ![instructions.png](/bazarr/instructions.png)
 
 1. How to enable notifications from within Bazarr
-1. How to enable notifications of a 2nd instance from within Bazarr
+1. The URL to use in Bazarr
 1. Test the notification from Notifiarr to Discord
     - This will ensure your server, channel and permissions are set properly in Discord.
