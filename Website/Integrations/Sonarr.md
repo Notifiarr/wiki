@@ -2,7 +2,7 @@
 title: Sonarr
 description: 
 published: true
-date: 2022-03-05T02:32:18.673Z
+date: 2022-03-11T00:18:50.039Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
@@ -46,7 +46,7 @@ Click the **cog icon** to open the configuration options for Sonarr.
 1. Open the Sonarr Integration
 1. Open integration specific instructions
 1. Configure Notification colors for each trigger type
-1. Unique notifications: Generate a new notification each time (By default notifications edit the previous one so there is a Grab and then the Download ot Upgrade will edit the Grab notification to alleviate the notification spam)
+1. Unique notifications: Generate a new notification each time (By default notifications edit the previous one so there is a Grab and then the Download or Upgrade will edit the Grab notification to alleviate the notification spam)
 1. Option to remove the grab once a successful import is done, only works with granular channels since messages in the same channel update
 
 ![configuration-2.png](/sonarr/configuration-2.png)
