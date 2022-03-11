@@ -2,7 +2,7 @@
 title: Sonarr
 description: 
 published: true
-date: 2022-03-11T00:18:50.039Z
+date: 2022-03-11T00:25:29.717Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
@@ -63,18 +63,27 @@ Click the **cog icon** to open the configuration options for Sonarr.
 
 ### Instructions
 
-![instructions.png](/sonarr/instructions.png)
+> For the latest instructions - refer to the Instructions within the Integration setting on the site {.is-info}
 
-1. How to enable notifications from within Sonarr
-1. Setting up multiple instance option
-1. Test the notification from Notifiarr to Discord
-    - This will ensure your server, channel and permissions are set properly in Discord.
+1. Configure the Sonarr integration and the channels on the Notifiarr Site
+1. Test the notification from Notifiarr to Discord. This will ensure your server, channel and permissions are set properly in Discord.
+1. Get the Webhook URL from the Notifiarr Site under "Basic Instructions" when editing the Sonarr Integration
+1. In Sonarr navigate to Connect => Add New (Plus Button) => Webhook
+1. Enter the webhook URL in the URL field
+1. Enter a name for the Notification in Sonarr `Notifiarr` is suggested, but use what you like
+1. Enable the notification triggers you wish to have sent from Sonarr to the Notifiarr Site
+1. Hit test - you should receive a notification on discord with the test message from Sonarr
+1. Save
+
+> If you have multiple Sonarr instnces you can append `|InstanceName` to the webhook url
+{.is-info}
 
 ### Errors
 
 #### 400 Bad Request
 
-Check and ensure you have a Grab or Download channel configured for Sonarr
+- Check and ensure you have a Grab or Download channel configured for Sonarr
+- Ensure the webhook URL is accurate
 
 #### 401 Unauthorized
 
