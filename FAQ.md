@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-01-16T01:41:58.940Z
+date: 2022-03-11T04:33:47.499Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -12,22 +12,28 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 ## Q. Is the Notifiarr client required?
 
-- The client is only required for certain integrations/features. This means the Media Request integration needs enabled and the connect added. You dont have to use requests but that is where the client connection is saved.
+- The client is only required for certain integrations/features. If you open the `Manage Integrations` on the site, it will display in the bottom right corner as well which need the client.
 
 ### Integrations
 
 - Channel Stats
 - Dashboard
-- Media Request
+- Media Requests
 - Network 
 - Plex 
+- Lidarr (Backup, Corruption & Stuck Queue notifications)
+- Prowlarr (Backup, Corruption & Stuck Queue notifications)
+- Radarr (Backup, Corruption & Stuck Queue notifications)
+- Readarr (Backup, Corruption & Stuck Queue notifications)
 - Snapshot
+- Sonarr (Backup, Corruption & Stuck Queue notifications)
 - TRaSH 
 
 ### Features
 
 - Radarr Collections
-- Automatic ununmonitoring of movies/epsiodes after finish
+- Automatic unmonitoring of movies/epsiodes after finish
+- Automatic refresh of TBA episodes
 - Automatic plex session killing per user/device based on rules
 - Stuck queue item notifications
 - Starr backup/corruption check notifications
