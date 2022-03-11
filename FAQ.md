@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-03-11T04:33:47.499Z
+date: 2022-03-11T04:34:55.747Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -103,4 +103,5 @@ If session info is missing from notifications or the sessions notification is no
 - Subscriber channel access on discord
 - Radarr Gaps (automated collection monitoring)
 - Custom Integration Icons
+- BYOB (Bring your own bot; you can use your own bot which will be hosted by Notifiarr)
 - Unlimited notifications per day
