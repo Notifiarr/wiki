@@ -2,7 +2,7 @@
 title: Sonarr
 description: 
 published: true
-date: 2022-03-11T04:27:52.911Z
+date: 2022-03-11T04:49:27.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T02:24:43.287Z
@@ -41,7 +41,7 @@ Click the **cog icon** to open the configuration options for Sonarr.
 
 ![configuration.png](/sonarr/configuration.png)
 
-1. Basic instructions on how to add the Notifiarr to Sonarr including the proper URL
+1. Basic instructions on how to add Notifiarr to Sonarr including the proper URL
 1. Trigger options and colors for the notification
 1. Custom icon (Subscriber feature)
 1. An optional content line added to notifications for mobile/wearable devices
@@ -73,10 +73,10 @@ Click the **cog icon** to open the configuration options for Sonarr.
 
 1. In Sonarr navigate to Connect => Add New (Plus Button) => Webhook
 2. Enter the webhook URL in the URL field
-2. Enter a name for the Notification in Sonarr `Notifiarr` is suggested, but use what you like
-2. Enable the notification triggers you wish to have sent from Sonarr to the Notifiarr Site
-2. Hit test - you should receive a notification on discord with the test message from Sonarr
-2. Save
+Enter a name for the Notification in Sonarr `Notifiarr` is suggested, but use what you like
+Enable the notification triggers you wish to have sent from Sonarr to the Notifiarr Site
+Hit test - you should receive a notification on discord with the test message from Sonarr
+Save
 3. Add `?instance=<name-here>` if you want to use multiple instances
 4. Send a test notification from the site to your discord server
 
