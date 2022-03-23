@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-03-11T04:34:55.747Z
+date: 2022-03-23T17:59:48.420Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -105,3 +105,21 @@ If session info is missing from notifications or the sessions notification is no
 - Custom Integration Icons
 - BYOB (Bring your own bot; you can use your own bot which will be hosted by Notifiarr)
 - Unlimited notifications per day
+
+## Q. How to allow Notifiarr through Cloudflare
+> Free accounts can create 5 Firewall rules
+{.is-info}
+
+1. Login to your Cloudflare account and open the domain
+1. Click **Security** and then **WAF**
+![cf-waf.png](/cloudflare/cf-waf.png)
+1. In the WAF section add a new rule by clicking on **Create Firewall Rule**
+![cf-waf-firewall.png](/cloudflare/cf-waf-firewall.png)
+1. Fill in the rule information
+	- `Name`: Notifiarr
+  - `Field`: User Agent
+  - `Operator`: Equals
+  - `Value`: Notifiarr
+  - `Action`: Allow
+![cf-waf-firewall-rule.png](/cloudflare/cf-waf-firewall-rule.png)
+5. Save the firewall changes
