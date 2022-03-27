@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-03-23T17:59:48.420Z
+date: 2022-03-27T16:52:36.288Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -18,6 +18,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 - Channel Stats
 - Dashboard
+- MDBList (Adding lists & movies to Radarr, Adding shows to Sonarr)
 - Media Requests
 - Network 
 - Plex 
@@ -25,6 +26,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Prowlarr (Backup, Corruption & Stuck Queue notifications)
 - Radarr (Backup, Corruption & Stuck Queue notifications)
 - Readarr (Backup, Corruption & Stuck Queue notifications)
+- Reciperr (Adding lists & movies to Radarr)
 - Snapshot
 - Sonarr (Backup, Corruption & Stuck Queue notifications)
 - TRaSH 
