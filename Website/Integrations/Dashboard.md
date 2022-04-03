@@ -2,13 +2,15 @@
 title: Dashboard
 description: 
 published: true
-date: 2021-07-23T21:45:33.176Z
+date: 2022-04-03T12:40:19.449Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T21:44:59.415Z
 ---
 
 > This integration allows for notifications to keep you updated with an overview of some commonly used apps.
+
+The frequency of updating of the dashboard is controlled by the Notifiarr Client Configuration for the Dashboard for the specified client. All other Dashboard settings are noted below and within the Dashboard Integration.
 
 ## Examples
 
@@ -40,4 +42,5 @@ Click the **cog icon** to open the configuration options for Dashboard messages.
 1. The order in which to post the dashboard notifications
 1. This will trigger a delete all and repost on the next update
 
-- Side note: When you change the active status or the order, the next update will trigger a delete all and repost everything automatically so they are in the correct order based on what you have turned on.
+> When you change the active status or the order, the next update will trigger a delete all and repost everything automatically so they are in the correct order based on what you have turned on.
+{.is-warning}
