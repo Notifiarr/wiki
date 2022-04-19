@@ -2,19 +2,83 @@
 title: Configuration
 description: 
 published: true
-date: 2021-11-10T15:17:14.336Z
+date: 2022-04-19T22:37:00.732Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
 ---
 
-## Configuration Information
+# Setup
+
+## Troubleshooting
+
+- Find help on Discord: [Notifiarr](https://discord.gg/AURf8Yz) or [GoLift](https://golift.io/discord)
+
+## Notifiarr Website
+There are many settings, timers, options, etc for this and are configured on the Notifiarr site in the `Notifiarr Client Configuration` popup (button is located at the top of the setup page and can configure all clients settings that are related to the site from there). You can get some insight about that [on the wiki](https://notifiarr.wiki/en/Website/ClientConfiguration) as well.
+
+There are core items that the client needs to be able to run and that is explained below.
+
+## Web UI
+Open the conf file, OS locations are listed on the Installation page, and find `ui_password = ""` or it might already have a default value in it. Set this to `ui_password="username-here:some-password-here"` and make sure if the line started with a `#` that you remove it. Save and close the file with the `ui_password` configured and then point your browser to the client. This can be something like:
+
+- `http://locahost:5454`
+- `http://notifiarr`
+- `http://192.168.1.10:5454`
+
+Use the username and password you setup in the conf file to login to the app. Now you can configure and setup the client via the UI. Everything below this (except for the Reverse Proxy information at the bottom) is for those who do not use the UI to change their settings.
+
+## .conf File
 
 -   You can use env variables but the conf is suggested
 -   Must provide an API key from notifiarr.com.
     -   **The Notifiarr application uses the API key for bi-directional authorization.**
 -   Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
 -   You may provide multiple instances using more `[[radarr]]` entries (as an example)
+
+```none
+quiet = false
+debug = true
+debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'
+[...truncated...]
+log_file = 'C:\ProgramData\notifiarr\logs\log.log'
+http_log = 'C:\ProgramData\notifiarr\logs\http.log'
+```
+
+### Log Files
+You can set a log file in the config. You should do that. Otherwise, find your logs here:
+
+-   Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
+-   FreeBSD: `/var/log/syslog` (w/ default syslog)
+-   Homebrew: `/usr/local/var/log/notifiarr.log`
+-   macOS: `~/.notifiarr/notifiarr.log`
+-   Windows: `<home folder>/.notifiarr/notifiarr.log`
+
+#### Detailed Debugging
+
+> Ensure that the path you set for the log files is somewhere both you and the client has access to. {.is-info}
+
+1. Locate and Open the Notifiarr Client config file. 
+1. `Disable` Quiet (i.e. `quiet = false`)
+1. `Enable` Debug (i.e. `debug = true`)
+1. Configure a Debug Log File path
+  - Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
+  - Linux: `debug_log = '/etc/notifiarr/debug.log'`
+1. Configure a Log Path for the Log File and HTTP Log File
+  - Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
+  - Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
+  - Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
+  - Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+1. Important: Make sure none of these lines start with a `#` and restart the client for the changes to take effect
+
+#### Clearing Logs
+
+- To `clear` logs to make troubleshooting easier - stop the client and rename/remove the log file, the restart the client.
+
+- If you have not previously enabled debug logs you do not need to clear anything.
+
+## ENV Variables
+- No thanks
 
 #### Plex
 
@@ -34,8 +98,6 @@ You must provide a [Plex Token](https://support.plex.tv/articles/204059436-findi
 - **The Notifiarr application uses the Plex token to authorize incoming webhooks.**
 
 #### System Snapshot
-
-- All of the settings for this are configured on the Notifiarr site in the `Client Settings` popup
 
 This application can also take a snapshot of your system at an interval and send
 you a notification. Snapshot means system health like cpu, memory, disk, raid, users, etc.
