@@ -2,7 +2,7 @@
 title: Client
 description: 
 published: true
-date: 2022-03-05T02:33:37.185Z
+date: 2022-04-19T22:15:21.228Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:20.353Z
@@ -16,66 +16,7 @@ It also provides reports for Plex usage and system health.
 
 ## Client
 
-[Refer to the Notifiarr Client GitHub for details](https://github.com/Notifiarr/notifiarr)
-
-## Troubleshooting
-
-- Find help on [GoLift Discord](https://golift.io/discord).
-- And/or on [Notifiarr Discord](https://discord.gg/AURf8Yz).
-
-Log files:
-
-You can set a log file in the config. You should do that. Otherwise, find your logs here:
-
--   Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
--   FreeBSD: `/var/log/syslog` (w/ default syslog)
--   Homebrew: `/usr/local/var/log/notifiarr.log`
--   macOS: `~/.notifiarr/notifiarr.log`
--   Windows: `<home folder>/.notifiarr/notifiarr.log`
-
-### Clearing Logs
-
-- To `clear` logs to make troubleshooting easier - simply rename the log file or delete it then restart the client.
-
-- If you have not previously enabled debug logs you do not need to clear anything.
-
-### Detailed Debugging
-
-> Ensure that the path you set for the log files is somewhere both you and the client has access to. {.is-info}
-
-1. Locate and Open the Notifiarr Client config file. 
-1. `Disable` Quiet (i.e. `quiet = false`)
-1. `Enable` Debug (i.e. `debug = true`)
-1. Configure a Debug Log File path
-  - Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
-  - Linux: `debug_log = '/etc/notifiarr/debug.log'`
-1. Configure a Log Path for the Log File and HTTP Log File
-  - Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
-  - Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
-  - Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
-  - Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
-1. Important: Make sure none of these lines start with a `#` and restart the client for the changes to take effect
-
-#### Example Config File Snippet
-
-```none
-quiet = false
-debug = true
-debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'
-[...truncated...]
-log_file = 'C:\ProgramData\notifiarr\logs\log.log'
-http_log = 'C:\ProgramData\notifiarr\logs\http.log'
-```
-
-> Ensure that the path you use is somewhere the client has access to. {.is-warning}
-
-Again change the path to somewhere the client has access to.
-
-----------
-
-If transfers are in a Warning or Error state they will not be extracted.
-
-Still having problems?[Let us know!](https://github.com/Notifiarr/notifiarr/issues/new) or [Come by Discord](https://discord.gg/AURf8Yz)
+[Source code available on Github](https://github.com/Notifiarr/notifiarr)
 
 ## Integrations
 
@@ -98,4 +39,4 @@ Yes, please.
 
 ## License
 
-[MIT](https://github.com/Notifiarr/notifiarr/blob/main/LICENSE) - Copyright (c) 2020-2021 Go Lift
+[MIT](https://github.com/Notifiarr/notifiarr/blob/main/LICENSE) - Copyright (c) 2020-2022 Go Lift
