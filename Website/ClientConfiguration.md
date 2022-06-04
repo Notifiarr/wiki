@@ -2,13 +2,13 @@
 title: Client Configuration
 description: 
 published: true
-date: 2021-11-29T03:54:03.258Z
+date: 2022-06-04T14:41:27.055Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-14T04:45:07.704Z
 ---
 
-## Client Configuration
+# Client Configuration
 
 The client is used to do all local communication between the site and your system. This allows all urls, apikeys, etc to stay local and requires apikey validation between the site and the client before any actions can be taken.
 
@@ -39,3 +39,15 @@ The dialog for client settings is temporary until a more UX friendly way to mana
 1. Save button: Once done, click this and it will update all your settings. If a URL is provided it will trigger the client to fetch the new settings right then. If no URL is provided then you can restart the client manually to pull the changed settings or wait 5 minutes for the client poller to request any changed settings and update
 1. If you have a duplicate client showup (change the user, hostname changed, etc) you can merge the new client with the old one so all the settings copy over and the old one is removed
 1. If you no longer have the client installed on a specific hostname, you can remove it
+
+## Duplicate Clients
+
+- This typically occurs in Docker or \*BSD when a [hostname is not configured](/Client/Installation#hostname) everytime the container is restarted.
+- For other installations this would occur if the unique attributes of your host system and installation change.
+
+## Resolving Duplicate Clients
+
+1. Configure/Set a hostname for the client if applicable or resolve the changing attributes
+1. Restart the client
+1. On the Website in Client Configuration, Delete all client entries between the first and last client
+1. On the Website in Client Configuration, Merge the remaining two client entries
