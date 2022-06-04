@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2022-06-04T14:50:05.820Z
+date: 2022-06-04T14:50:25.672Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -31,7 +31,7 @@ sudo service systemctl restart notifiarr
 ```
 
 > On Linux, Notifiarr runs as `user:group` `notifiarr:notifiarr`.
-{.info}
+{.is-info}
 
 ## FreeBSD
 
