@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2022-06-04T14:49:17.056Z
+date: 2022-06-04T14:50:05.820Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -47,7 +47,7 @@ service notifiarr start
 ```
 
 > On FreeBSD, Notifiarr runs as `user:group` `notifiarr:notifiarr`.
-{.info}
+{.is-info}
 
 ## macOS Install
 
@@ -107,13 +107,13 @@ It is important that a static hostname is set so the site can keep track of mult
 
 - If you have duplicate clients on the website and are setting a hostname after the fact, [see these instructions](/Website/ClientConfiguration#resolving-duplicate-clients) for resolving the duplicates
 
-#### Docker Config File
+### Docker Config File
 
 - Copy the [example config file](https://github.com/Notifiarr/notifiarr/blob/main/examples/notifiarr.conf.example) from this repo.
--   Then grab the image from docker hub and run it using an overlay for the config file.
--   You must set `privileged` to use `smartctl` (`monitor_drives`) and/or `MegaCli` (`monitor_raid`).
--   Map the `/var/run/utmp` volume if you want to count users.
--   Mount any volumes you want to report storage space for. Where does not matter, "where" is the "name".
+- Then grab the image from docker hub and run it using an overlay for the config file.
+- You must set `privileged` to use `smartctl` (`monitor_drives`) and/or `MegaCli` (`monitor_raid`).
+- Map the `/var/run/utmp` volume if you want to count users.
+- Mount any volumes you want to report storage space for. Where does not matter, "where" is the "name".
 
 ```shell
 docker pull golift/notifiarr
@@ -129,7 +129,7 @@ docker logs <container id from docker run>
 {.is-info}
 
 
-#### Docker Environment Variables
+### Docker Environment Variables
 
 See below for more information about which environment variables are available.
 You must set `--privileged` when `monitor_drives=true`.
