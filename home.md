@@ -2,7 +2,7 @@
 title: About
 description: 
 published: true
-date: 2022-01-09T20:47:21.210Z
+date: 2022-06-12T00:40:16.760Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T00:58:35.895Z
@@ -10,7 +10,7 @@ dateCreated: 2021-05-22T00:58:35.895Z
 
 # Notifiarr
 
-This is not something we are trying to get hundreds of thousands of users using, so you wont see it being announced or advertised. Use it if it is helpful, don't if it isn't! The info here is more of a quick high level overview, you can visit the site for full details or hop on Discord.
+This is not something we are trying to get hundreds of thousands of users using, so you wont see it being announced or advertised. Use  NotifiRr if it is helpful, don't if it isn't! The information in the wiki is more of a quick high level overview and you can visit the site for full details or hop on Discord.
 
 ## Support
 
@@ -52,6 +52,8 @@ This was built about 2 years ago for [me](https://github.com/austinwbest) and us
 
 ### Media Requests
 
+Note that the Notifiarr Client is required for Media Requests
+
 * [Lidarr](/Website/Integrations/MediaRequests.md)
 * [Radarr](/Website/Integrations/MediaRequests.md)
 * [Readarr](/Website/Integrations/MediaRequests.md)
@@ -85,8 +87,6 @@ This was built about 2 years ago for [me](https://github.com/austinwbest) and us
 * [Hotio: Pullio](/Website/Integrations/Hotio.md)
 * [TRaSH: Sync *Patron*](/Website/Integrations/Trash.md)
 {.links-list}
-
-This may not always be a full list, but covers most things at the time of posting.
 
 ## Additional Features
 
