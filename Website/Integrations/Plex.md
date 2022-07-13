@@ -29,7 +29,6 @@ Reaction example:
 1. Channel
     - Channel(s) to use for sending plex notifications
 
-
 ## Configuration
 
 ![open-configuration.png](/plex/open-configuration.png)

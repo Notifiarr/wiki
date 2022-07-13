@@ -10,7 +10,6 @@ dateCreated: 2021-05-22T22:04:40.095Z
 
 > This integration allows for notifications from the Jellyfin media app
 
-
 ## Trigger options
 
 ![trigger-channels.png](/jellyfin/trigger-channels.png)
@@ -25,7 +24,6 @@ dateCreated: 2021-05-22T22:04:40.095Z
     - Open the configuration to enable/disable more triggers
 1. Channel
     - Setup all the channels needed for each trigger
-
 
 ## Configuration
 

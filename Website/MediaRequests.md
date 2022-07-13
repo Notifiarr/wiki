@@ -10,7 +10,6 @@ dateCreated: 2021-05-25T21:53:40.686Z
 
 # History
 
-
 ![media-requests-1.png](/media-requests-1.png)
 
 1. History tab will show you all your request history from the bot
@@ -35,6 +34,6 @@ dateCreated: 2021-05-25T21:53:40.686Z
 1. TMDb collection name and link to the collection
 1. List of movies in the collection and if you have them or not
 1. Percentage of the collection that is completed
-1. A check before the movie means the movie is in Radarrs list exclusion and will not be added even if automatically monitoing the collection
+1. A check before the movie means the movie is in Radarr's list exclusion and will not be added even if automatically monitoing the collection
 1. Manual settings if you want to add missing movies from collections now
 1. Monitor settings for how automation will be handled

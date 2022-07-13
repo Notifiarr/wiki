@@ -11,17 +11,20 @@ dateCreated: 2022-02-02T03:47:09.185Z
 # API Error Help
 
 ## 5**
+
 Cloudflare issues, try again and it will go away
 
 ## 401
-You have an invalid apikey. 
+
+You have an invalid apikey.
+
 - Check that when you copy and pasted it you did not copy extra spaces
 - Make sure you do not have an ENV variable set that is incorrect since that overrides the conf file
 - Make sure if it is an integration specific key that it is the correct integration you are using it for
 
 ## 400
 
-### network integration disabled
+### Network Integration Disabled
 
 If you see this in your log file, it means you have something in the local notifiarr.conf file that is trying to send a service check but you do not have the integration enabled. Your options are:
 

@@ -10,7 +10,6 @@ dateCreated: 2021-05-22T22:46:02.226Z
 
 > This integration allows for notifications from public Github repositories.
 
-
 ## Trigger options
 
 ![trigger-channels.png](/github/trigger-channels.png)

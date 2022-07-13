@@ -23,7 +23,7 @@ dateCreated: 2021-05-23T03:12:13.099Z
 - `Download` - Receive a notification when media **new** is successfully imported
 - `Update` - Receive a notification when the application updates
 - `Upgrade` - Receive a notification when **upgraded** media is successfully imported
-- `Health` - Receive a notification when the applicarion reports an issue
+- `Health` - Receive a notification when the application reports an issue
 - `Backup` - Receive a notification when a backup occurs [(Notifiarr Client Required)](/Client/Main)
 - `Corrupt` - Monitor backups for corruption and size loss [(Notifiarr Client Required)](/Client/Main)
 - `Deleted` - Be notified when media is deleted

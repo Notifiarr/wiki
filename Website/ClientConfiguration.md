@@ -25,10 +25,12 @@ The dialog for client settings is temporary until a more UX friendly way to mana
 1. Client list: Each client you have configured will show up as a tab so its settings can be modified
 1. This section is information about the local client and its host environment
 1. This is the URL to the client so the site can communicate with it (Not required but if there is not one setup, many features will not work and the sync will be on a poll)
-	- This can not be `http://192.168.*.*:5454` - That is a local network IP
-	- This can not be `http://10.1.*.*:5454` - That is a local network IP
-	- This can be `http://<your-external-ip>:5454` - With a port forward to point that port to the local machine IP
-	- This can be `https://notifiarr.domain.com` or `https://domain.com/notifiarr` if you use a reverse proxy with a port forward to point that port to the local machine IP
+
+- This cannot be `http://192.168.*.*:5454` - That is a local network IP
+- This cannot be `http://10.1.*.*:5454` - That is a local network IP
+- This can be `http://<your-external-ip>:5454` - With a port forward to point that port to the local machine IP
+- This can be `https://notifiarr.domain.com` or `https://domain.com/notifiarr` if you use a reverse proxy with a port forward to point that port to the local machine IP
+
 1. This is the connection status, if it isn't green then the site can not reach the client. Change the URL accordingly and click the icon to re-test until it turns green
 1. Client triggers: If the URL is provided, you can trigger the client to run any of these actions by clicking the cloud icon
 1. Bot trigger: If the URL is provided, you can pick a keyword and channel for the bot to monitor and it will give you the option to trigger any of the actions from all available clients

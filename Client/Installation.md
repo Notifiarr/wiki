@@ -68,9 +68,9 @@ brew services start notifiarr
 - You can use the unsigned app on the Releases page.
 - You must right click the app and select `Open` so macOS allows it.
 - When you open it for the first time it will create a config file and log file:
-  -   `~/.notifiarr/notifiarr.conf`
-  -   `~/.notifiarr/notifiarr.log`
--   Edit the config file and reload or restart the app.
+  - `~/.notifiarr/notifiarr.conf`
+  - `~/.notifiarr/notifiarr.log`
+- Edit the config file and reload or restart the app.
 
 ## Windows
 
@@ -90,10 +90,11 @@ brew services start notifiarr
 ### Hostname
 
 It is important that a static hostname is set so the site can keep track of multiple clients for the settings. Some examples of how to do that:
+
 - Docker Run users add `-h notifiarr` to your docker run command
 - Docker Compose users add `hostname: notifiarr` to your yaml
-- Unraid users add `-h notifiarr` to Extra Parameters 
-- TrueNAS and Kubernets hostnames will be automatically pulled based on the pod name since they dont offer static hostnames
+- Unraid users add `-h notifiarr` to Extra Parameters
+- TrueNAS and Kubernetes hostnames will be automatically pulled based on the pod name since they dont offer static hostnames
 
 #### WSL2 users
 
@@ -124,10 +125,9 @@ golift/notifiarr
 docker logs <container id from docker run>
 ```
 
-> If you're behind a reverse proxy and facing connection issues (for example after a certificate renewal), the upstreams setting in the config file might need to be changed to 
+> If you're behind a reverse proxy and facing connection issues (for example after a certificate renewal), the upstreams setting in the config file might need to be changed to
 `upstreams = [ "notifiarr/32", "::1/128" ]`
 {.is-info}
-
 
 ### Docker Environment Variables
 
