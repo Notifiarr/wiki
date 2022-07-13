@@ -24,7 +24,7 @@ dateCreated: 2021-05-22T02:20:20.205Z
 - `Update` - Receive a notification when the application updates
 - `Upgrade` - Receive a notification when **upgraded** media is successfully imported
 - `Failed` - Custom notification type based on previous grabs. If the system detects a grab for the same media with the same quality or better before the previous one was imported then it will set the previous one as failed
-- `Health` - Receive a notification when the applicarion reports an issue
+- `Health` - Receive a notification when the application reports an issue
 - `Backup` - Receive a notification when a backup occurs [(Notifiarr Client Required)](/Client/Main)
 - `Corrupt` - Monitor backups for corruption and size loss [(Notifiarr Client Required)](/Client/Main)
 - `Deleted` - Be notified when media is deleted

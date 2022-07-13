@@ -15,11 +15,13 @@ dateCreated: 2021-05-22T01:09:34.150Z
 - Find help on Discord: [Notifiarr](https://discord.gg/AURf8Yz) or [GoLift](https://golift.io/discord)
 
 ## Notifiarr Website
+
 There are many settings, timers, options, etc for this and are configured on the Notifiarr site in the `Notifiarr Client Configuration` popup (button is located at the top of the setup page and can configure all clients settings that are related to the site from there). You can get some insight about that [on the wiki](https://notifiarr.wiki/en/Website/ClientConfiguration) as well.
 
 There are core items that the client needs to be able to run and that is explained below.
 
 ## Web UI
+
 Open the conf file, OS locations are listed on the Installation page, and find `ui_password = ""` or it might already have a default value in it. Set this to `ui_password="username-here:some-password-here"` and make sure if the line started with a `#` that you remove it. Save and close the file with the `ui_password` configured and then point your browser to the client. This can be something like:
 
 - `http://locahost:5454`
@@ -30,11 +32,11 @@ Use the username and password you setup in the conf file to login to the app. No
 
 ## .conf File
 
--   You can use env variables but the conf is suggested
--   Must provide an API key from notifiarr.com.
-    -   **The Notifiarr application uses the API key for bi-directional authorization.**
--   Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
--   You may provide multiple instances using more `[[radarr]]` entries (as an example)
+- You can use env variables but the conf is suggested
+- Must provide an API key from notifiarr.com.
+  - **The Notifiarr application uses the API key for bi-directional authorization.**
+- Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
+- You may provide multiple instances using more `[[radarr]]` entries (as an example)
 
 ```none
 quiet = false
@@ -46,29 +48,34 @@ http_log = 'C:\ProgramData\notifiarr\logs\http.log'
 ```
 
 ### Log Files
+
 You can set a log file in the config. You should do that. Otherwise, find your logs here:
 
--   Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
--   FreeBSD: `/var/log/syslog` (w/ default syslog)
--   Homebrew: `/usr/local/var/log/notifiarr.log`
--   macOS: `~/.notifiarr/notifiarr.log`
--   Windows: `<home folder>/.notifiarr/notifiarr.log`
+- Linux: `/var/log/messages` or `/var/log/syslog` (w/ default syslog)
+- FreeBSD: `/var/log/syslog` (w/ default syslog)
+- Homebrew: `/usr/local/var/log/notifiarr.log`
+- macOS: `~/.notifiarr/notifiarr.log`
+- Windows: `<home folder>/.notifiarr/notifiarr.log`
 
 #### Detailed Debugging
 
 > Ensure that the path you set for the log files is somewhere both you and the client has access to. {.is-info}
 
-1. Locate and Open the Notifiarr Client config file. 
+1. Locate and Open the Notifiarr Client config file.
 1. `Disable` Quiet (i.e. `quiet = false`)
 1. `Enable` Debug (i.e. `debug = true`)
 1. Configure a Debug Log File path
-  - Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
-  - Linux: `debug_log = '/etc/notifiarr/debug.log'`
+
+- Windows:`debug_log = 'C:\ProgramData\notifiarr\logs\debug.log'`
+- Linux: `debug_log = '/etc/notifiarr/debug.log'`
+
 1. Configure a Log Path for the Log File and HTTP Log File
-  - Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
-  - Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
-  - Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
-  - Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+
+- Windows Log: `log_file = 'C:\ProgramData\notifiarr\logs\log.log'`
+- Windows HTTP Log: `http_log = 'C:\ProgramData\notifiarr\logs\http.log'`
+- Linux Log: `log_file = '/etc/notifiarr/notifiarr.log'`
+- Linux HTTP Log: `http_log = '/etc/notifiarr/http.log'`
+
 1. Important: Make sure none of these lines start with a `#` and restart the client for the changes to take effect
 
 #### Clearing Logs
@@ -78,11 +85,12 @@ You can set a log file in the config. You should do that. Otherwise, find your l
 - If you have not previously enabled debug logs you do not need to clear anything.
 
 ## ENV Variables
+
 - No thanks
 
-#### Plex
+### Plex
 
-This application can also send Plex sessions to Notfiarr so you can receive
+This application can also send Plex sessions to Notifiarr so you can receive
 notifications when users interact with your server. This has three different features:
 
 - Notify all sessions on a longer interval (30+ minutes).
@@ -107,18 +115,18 @@ If you use smartctl on Linux, you must enable sudo. Add this sudoers entry to
 `/etc/sudoers` and fix the path to `smartctl` if yours differs. If you monitor
 raid and use MegaCli (LSI card), add the appropriate sudoers entry for that too.
 
-```
+```none
 notifiarr ALL=(root) NOPASSWD:/usr/sbin/smartctl *
 notifiarr ALL=(root) NOPASSWD:/usr/sbin/MegaCli64 -LDInfo -Lall -aALL
 ```
 
-###### Snapshot Packages
+##### Snapshot Packages
 
-  - **Windows**:  `smartmontools` - get it here https://sourceforge.net/projects/smartmontools/
-  - **Linux**:    Debian/Ubuntu: `apt install smartmontools`, RedHat/CentOS: `yum install smartmontools`
-  - **Synology**: `opkg install smartmontools`, but first get Entware:
-    - Entware (synology):  https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS
-    - Entware Package List: https://github.com/Entware/Entware-ng#readme
+- **Windows**:  `smartmontools` - get it here <https://sourceforge.net/projects/smartmontools/>
+- **Linux**:    Debian/Ubuntu: `apt install smartmontools`, RedHat/CentOS: `yum install smartmontools`
+- **Synology**: `opkg install smartmontools`, but first get Entware:
+  - Entware (synology):  <https://github.com/Entware/Entware-ng/wiki/Install-on-Synology-NAS>
+  - Entware Package List: <https://github.com/Entware/Entware-ng#readme>
 
 - _Notes: Not all systems can report CPU temperatures._
 
@@ -127,13 +135,14 @@ notifiarr ALL=(root) NOPASSWD:/usr/sbin/MegaCli64 -LDInfo -Lall -aALL
 The Notifiarr client can also check URLs for health. If you set names on your
 Starr apps they will be automatically checked and reports sent to Notifiarr. Find the below setting and switch it to `true`
 
-```
+```none
 [services]
   disabled = false   # Setting this to true disables all service checking routines.
 ```
 
 Monitor an app:
-```
+
+```none
 [[service]]
   name     = "App: Bazarr"
   type     = "http"
@@ -144,7 +153,8 @@ Monitor an app:
 ```
 
 Monitor another machine:
-```
+
+```none
 [[service]]
   name     = "Server: webserver"
   type     = "tcp"
@@ -155,7 +165,8 @@ Monitor another machine:
 ```
 
 Monitor a running process:
-```
+
+```none
 [[service]]
   name     = "App: Unpackerr"
   type     = "process"
@@ -178,7 +189,7 @@ The `urlbase` can be left at `/`, but change it if you serve this app from a
 subfolder. We'll assume you want to serve the app from `/notifiarr/` and
 it's running on `192.168.3.33` - here's a sample nginx config to do that:
 
-```
+```nginx
 location /notifiarr/ {
   proxy_set_header X-Forwarded-For $remote_addr;
   proxy_pass http://192.168.3.33:5454$request_uri;
@@ -201,7 +212,7 @@ These are just some examples from users, they may need modified to run on your s
 
 ### Example 1
 
-```
+```yml
 notifiarr:
     container_name: notifiarr
     hostname: notifiarr
@@ -227,7 +238,7 @@ notifiarr:
 
 ### Example 2
 
-```
+```yml
 notifiarr:
    container_name: notifiarr
    hostname: notifiarr
@@ -245,7 +256,7 @@ notifiarr:
 
 ### Example 3
 
-```
+```yml
 notifiarr:
     image: golift/notifiarr:latest
     container_name: notifiarr

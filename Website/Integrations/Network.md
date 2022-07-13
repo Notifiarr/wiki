@@ -9,10 +9,9 @@ dateCreated: 2021-05-22T02:18:22.659Z
 ---
 
 > This integration allows for notifications from the local Notifiarr client app to monitor network machines or services. Keep in mind this utilizes the Notifiarr client so you will need to enable the Media Requests integration and set it up (even if you dont want to request media)
+{.is-info}
 
----
-
-## Monitoring overview
+## Monitoring Overview
 
 ![overview.png](/network/overview.png)
 

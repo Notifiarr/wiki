@@ -73,7 +73,7 @@ Click the **cog icon** to open the configuration options for *arr apps.
 
 1. Discord users that can be used to assign permissions to
 1. User details
-3. App settings for the user
+1. App settings for the user
 
 ### Instructions
 

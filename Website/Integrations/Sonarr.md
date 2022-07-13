@@ -11,7 +11,6 @@ dateCreated: 2021-05-22T02:24:43.287Z
 > This integration allows for notifications from Sonarr using the connect for Webhooks. In Sonarr click Settings → Connect → <kb>+</kb> → Webhook (Note that: the Sonarr Developers refuse to add Notifiarr as a native connection) and the instructions are below on what information to use.
 {.is-info}
 
-
 ## Trigger options
 
 ![triggers-channels.png](/sonarr/triggers-channels.png)
@@ -23,7 +22,7 @@ dateCreated: 2021-05-22T02:24:43.287Z
 - `Update` - Receive a notification when the application updates
 - `Upgrade` - Receive a notification when **upgraded** media is successfully imported
 - `Failed` - Custom notification type based on previous grabs. If the system detects a grab for the same media with the same quality or better before the previous one was imported then it will set the previous one as failed
-- `Health` - Receive a notification when the applicarion reports an issue
+- `Health` - Receive a notification when the application reports an issue
 - `Backup` - Receive a notification when a backup occurs ([Notifiarr Client Required](/Client/Main))
 - `Corrupt` - Monitor backups for corruption and size loss ([Notifiarr Client Required](/Client/Main))
 - `Deleted` - Be notified when media is deleted
@@ -31,7 +30,6 @@ dateCreated: 2021-05-22T02:24:43.287Z
 ### 2. Channels
 
 - Sonarr channel picker for each trigger
-
 
 ## Configuration
 
@@ -48,10 +46,10 @@ Click the **cog icon** to open the configuration options for Sonarr.
 
 ![configuration.png](/sonarr/configuration-2.png)
 
-5. Custom regular expression option to exclude health checks that match
-6. Option to only send notifications if corruption detects a warning or error
-7. Option to stop notification updating and send a notification for everything
-8. Option to delete the grab notification after the import notification is received
+1. Custom regular expression option to exclude health checks that match
+1. Option to only send notifications if corruption detects a warning or error
+1. Option to stop notification updating and send a notification for everything
+1. Option to delete the grab notification after the import notification is received
 
 ![configuration-2.png](/sonarr/configuration-3.png)
 

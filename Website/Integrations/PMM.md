@@ -32,10 +32,11 @@ Open the Plex channel picker and you will see a channel setting for `Collections
 
 The Notifiarr client on your local machine is not required for this integration to work. PMM is webhook based.  It is highly recommended you add an API key specific to this integration since it is a 3rd party.
 
-# PMM Configuriation
+# PMM Configuration
 
 ## PMM Config File
-In order to activate Notifiarr on PMM, you need to edit the yml config file and add the following: 
+
+In order to activate Notifiarr on PMM, you need to edit the yml config file and add the following:
 
 ![notifiarrkey.png](/plexmetamanger/notifiarrkey.png)
 
@@ -43,7 +44,7 @@ PMM is web-hook agnostic hence you need to instruct it where to send the webhook
 
 ![webhooknotifiarr.png](/plexmetamanger/webhooknotifiarr.png)
 
-It's always good to run a yml validator if you are not sure if your file will be a valid one. Then make sure to restart PMM in order for new changes to take effect. 
+It's always good to run a yml validator if you are not sure if your file will be a valid one. Then make sure to restart PMM in order for new changes to take effect.
 
 ## Misc
 

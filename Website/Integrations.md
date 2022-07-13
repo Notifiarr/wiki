@@ -62,4 +62,4 @@ dateCreated: 2022-01-09T20:38:47.551Z
 * [TRaSH: Sync](/Website/Integrations/Trash.md)
 {.links-list}
 
-This may not always be a full list, but covers most things at the time of posting.
+This may not always be a full list, but covers most integrations.

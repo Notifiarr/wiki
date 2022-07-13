@@ -20,8 +20,8 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Dashboard
 - MDBList (Adding lists & movies to Radarr, Adding shows to Sonarr)
 - Media Requests
-- Network 
-- Plex 
+- Network
+- Plex
 - Lidarr (Backup, Corruption & Stuck Queue notifications)
 - Prowlarr (Backup, Corruption & Stuck Queue notifications)
 - Radarr (Backup, Corruption & Stuck Queue notifications)
@@ -29,12 +29,12 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Reciperr (Adding lists & movies to Radarr)
 - Snapshot
 - Sonarr (Backup, Corruption & Stuck Queue notifications)
-- TRaSH 
+- TRaSH
 
 ### Features
 
 - Radarr Collections
-- Automatic unmonitoring of movies/epsiodes after finish
+- Automatic unmonitoring of movies/episodes after finish
 - Automatic refresh of TBA episodes
 - Automatic plex session killing per user/device based on rules
 - Stuck queue item notifications
@@ -58,7 +58,7 @@ dateCreated: 2021-05-25T16:43:06.324Z
 
 ### Connection
 
-- You can run a curl command and make sure you get an `200 OK` response returned. 
+- You can run a curl command and make sure you get an `200 OK` response returned.
 
 ```bash
 curl -I -H "X-Plex-Token: <token>" <url>/status/sessions
@@ -69,12 +69,13 @@ curl -I -H "X-Plex-Token: <token>" <url>/status/sessions
 
   - Expected result: HTTP/1.1 200 OK
   - Incorrect result: HTTP/1.1 401 Unauthorized
- 
+
 - Adjust the token and url until it is 200.
 - Update the Notifiarr Client's configuration with the correct url and token
 - Restart the Notifiarr Client
 
-### Notifications & Sessions:
+### Notifications & Sessions
+
 If session info is missing from notifications or the sessions notification is not working:
 
 - Make sure you dont have duplicated clients in the [Client Settings](https://notifiarr.wiki/en/Website/ClientConfiguration)
@@ -87,11 +88,13 @@ If session info is missing from notifications or the sessions notification is no
 ## Q. What are the user level differences
 
 ### User
+
 - Cost: Free
-- Access to all integrations and notifications (Except TRaSH sync) 
+- Access to all integrations and notifications (Except TRaSH sync)
 - Limited to 12,000 notifications per day
 
 ### Patron
+
 - Cost: One time support contribution
 - Patron channel access on discord
 - Access to TRaSH Custom Format and Release Profile Sync and extra Custom Formats not on the public guide
@@ -99,8 +102,9 @@ If session info is missing from notifications or the sessions notification is no
 - Limited to 24,000 notifications per day
 
 ### Subscriber
+
 - Cost: Monthly or Yearly support contribution
-    - **Note** If you cancel your subscription, you'll be shifted into `Patron`
+  - **Note** If you cancel your subscription, you'll be shifted into `Patron`
 - Patron Access
 - Subscriber channel access on discord
 - Radarr Gaps (automated collection monitoring)
@@ -109,6 +113,7 @@ If session info is missing from notifications or the sessions notification is no
 - Unlimited notifications per day
 
 ## Q. How to allow Notifiarr through Cloudflare
+
 > Free accounts can create 5 Firewall rules
 {.is-info}
 
@@ -118,10 +123,13 @@ If session info is missing from notifications or the sessions notification is no
 1. In the WAF section add a new rule by clicking on **Create Firewall Rule**
 ![cf-waf-firewall.png](/cloudflare/cf-waf-firewall.png)
 1. Fill in the rule information
-	- `Name`: Notifiarr
-  - `Field`: User Agent
-  - `Operator`: Equals
-  - `Value`: Notifiarr
-  - `Action`: Allow
+
+- `Name`: Notifiarr
+
+- `Field`: User Agent
+- `Operator`: Equals
+- `Value`: Notifiarr
+- `Action`: Allow
 ![cf-waf-firewall-rule.png](/cloudflare/cf-waf-firewall-rule.png)
+
 5. Save the firewall changes
