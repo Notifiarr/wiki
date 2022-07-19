@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2022-07-14T15:07:53.156Z
+date: 2022-07-19T23:50:15.259Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -93,6 +93,10 @@ This project builds automatically in [Docker Cloud](https://hub.docker.com/r/gol
 and creates [ready-to-use multi-architecture images](https://hub.docker.com/r/golift/notifiarr/tags).
 The `latest` tag is always a tagged release in GitHub. The `main` tag corresponds
 to the `main` branch in GitHub and may be broken.
+
+> **Unraid Users**
+You must configure a Notifiarr API Key (and Plex Token if you wish to use Plex) in the Unraid Template.  Enviormental Variables and thus the Template override the Config file
+{.is-danger}
 
 #### Docker Config File
 
