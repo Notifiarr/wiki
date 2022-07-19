@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-07-14T15:10:01.246Z
+date: 2022-07-19T23:51:25.457Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -31,6 +31,10 @@ Open the conf file, OS locations are listed on the Installation page, and find `
 Use the username and password you setup in the conf file to login to the app. Now you can configure and setup the client via the UI. Everything below this (except for the Reverse Proxy information at the bottom) is for those who do not use the UI to change their settings.
 
 ## .conf File
+
+> **Unraid Users**
+You must configure a Notifiarr API Key (and Plex Token if you wish to use Plex) in the Unraid Template.  Enviormental Variables and thus the Template override the Config file
+{.is-danger}
 
 - You can use env variables but the conf is suggested
 - Must provide an API key from notifiarr.com.
