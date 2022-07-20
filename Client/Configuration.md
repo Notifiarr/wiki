@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-07-19T23:51:25.457Z
+date: 2022-07-20T00:26:07.982Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -33,10 +33,14 @@ Use the username and password you setup in the conf file to login to the app. No
 ## .conf File
 
 > **Unraid Users**
-You must configure a Notifiarr API Key (and Plex Token if you wish to use Plex) in the Unraid Template.  Enviormental Variables and thus the Template override the Config file
+You must configure a Notifiarr API Key in the Unraid Template. If you wish to use Plex then you'll also need to set the Plex Token and Plex URL in the template as well.
 {.is-danger}
 
-- You can use env variables but the conf is suggested
+> **Docker Users**
+Note that Docker Enviormental Variables and thus the Template override the Config file.
+{.is-info}
+
+- You can use env variables, but the conf is suggested
 - Must provide an API key from notifiarr.com.
   - **The Notifiarr application uses the API key for bi-directional authorization.**
 - Must provide URL and API key for Sonarr or Radarr or Readarr or any combination.
