@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-07-20T00:29:38.681Z
+date: 2022-07-20T00:30:09.130Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:09:34.150Z
@@ -16,7 +16,7 @@ dateCreated: 2021-05-22T01:09:34.150Z
 
 ## Notifiarr Website
 
-There are many settings, timers, options, etc for this and are configured on the Notifiarr site in the `Notifiarr Client Configuration` popup (button is located at the top of the setup page and can configure all clients settings that are related to the site from there). You can get some insight about that [on the wiki](https://notifiarr.wiki/en/Website/ClientConfiguration) as well.
+There are many settings, timers, options, etc for this and are configured on the Notifiarr site in the `Notifiarr Client Configuration` popup (button is located at the top of the setup page and can configure all clients settings that are related to the site from there). You can get some insight about that [on the wiki](/Website/ClientConfiguration) as well.
 
 There are core items that the client needs to be able to run and that is explained below.
 
