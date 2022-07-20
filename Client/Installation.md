@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2022-07-20T00:26:29.313Z
+date: 2022-07-20T00:30:44.129Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-22T01:08:57.387Z
@@ -99,7 +99,7 @@ You must configure a Notifiarr API Key in the Unraid Template. If you wish to us
 {.is-danger}
 
 > **Docker Users**
-Note that Docker Enviormental Variables and thus the Template override the Config file.
+Note that Docker Enviormental Variables - and thus the Unraid Template - override the Config file.
 {.is-info}
 
 #### Docker Config File
