@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-03-27T16:52:36.288Z
+date: 2022-07-23T17:51:41.290Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -30,6 +30,8 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Snapshot
 - Sonarr (Backup, Corruption & Stuck Queue notifications)
 - TRaSH
+- Client Commands (\*Coming Soon\*)
+  - Discord triggering and advanced features require Subscription
 
 ### Features
 
@@ -108,6 +110,7 @@ If session info is missing from notifications or the sessions notification is no
 - Patron Access
 - Subscriber channel access on discord
 - Radarr Gaps (automated collection monitoring)
+- Clients Commands via Discord (\*Coming Soon\*)
 - Custom Integration Icons
 - BYOB (Bring your own bot; you can use your own bot which will be hosted by Notifiarr)
 - Unlimited notifications per day
