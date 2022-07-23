@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-07-23T17:51:41.290Z
+date: 2022-07-23T17:52:48.752Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -29,9 +29,9 @@ dateCreated: 2021-05-25T16:43:06.324Z
 - Reciperr (Adding lists & movies to Radarr)
 - Snapshot
 - Sonarr (Backup, Corruption & Stuck Queue notifications)
-- TRaSH
+- TRaSH Custom Format & Profile Sync (Patron)
 - Client Commands (\*Coming Soon\*)
-  - Discord triggering and advanced features require Subscription
+  - Discord triggering and advanced features (Sub)
 
 ### Features
 
