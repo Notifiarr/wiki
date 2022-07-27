@@ -2,7 +2,7 @@
 title: Quick start
 description: 
 published: true
-date: 2022-07-27T01:27:09.453Z
+date: 2022-07-27T01:27:29.862Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T14:04:10.732Z
@@ -15,7 +15,7 @@ Almost everything needed is available in different parts of the wiki. This will 
 ## Assumptions
 
 - You already have an account setup on notifiarr.com with a valid apikey to use in the client but if you dont, stop here and go make one.
-- You have [setup the notifiarr client](https://notifiarr.wiki/en/Client/Installation) if you plan to use it. To know if you will need it or not you can view the faq [for information on if it is required](https://notifiarr.wiki/en/FAQ#q-is-the-notifiarr-client-required)
+- You have [setup the notifiarr client](/Client/Installation) if you plan to use it. To know if you will need it or not you can view the faq [for information on if it is required](/FAQ#q-is-the-notifiarr-client-required)
 
 ## Client Connection
 
