@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2022-07-28T00:29:21.837Z
+date: 2022-07-28T00:30:09.412Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-25T16:43:06.324Z
@@ -117,7 +117,7 @@ If session info is missing from notifications or the sessions notification is no
 
 ## Q. How to allow Notifiarr through Cloudflare
 
-## WAF Rule
+### WAF Rule
 
 > Free accounts can create 5 Firewall rules
 {.is-info}
